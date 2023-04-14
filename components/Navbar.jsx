@@ -17,7 +17,7 @@ function Navbar() {
         setNav(!nav)
     };
     return (
-        <div className='fixed w-full h-20 shadow-xl z-[100]'>
+        <div className='fixed w-full h-20 shadow-xl z-1 bg-black'>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Image
                     src={Essai}
@@ -32,11 +32,11 @@ function Navbar() {
                             <li className='ml-10 text-lg hover:border-b uppercase cursor-crosshair'>Acceuil</li>
                         </Link>
 
-                        <Link href="/">
+                        <Link href="/#about">
                             <li className='ml-10 text-lg hover:border-b uppercase cursor-crosshair'>A propos</li>
                         </Link>
 
-                        <Link href="/">
+                        <Link href="/#skills">
                             <li className='ml-10 text-lg hover:border-b uppercase cursor-crosshair'>Skills</li>
                         </Link>
 

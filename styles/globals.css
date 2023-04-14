@@ -50,6 +50,6 @@ html {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(205, 107, 247);
+  background: rgb(0, 0, 0);
   border-radius: 45px;
 }
