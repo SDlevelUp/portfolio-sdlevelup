@@ -17,7 +17,7 @@ function Skills() {
                 <p className='text-xl tracking-widest uppercase text-gray-900 font-bold'>
                     Skills
                 </p>
-                <h2 className='py-4 text-l'>Mes compétances</h2>
+                <h2 className='py-4 text-xl'>Mes compétances</h2>
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -52,7 +52,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={REACT} width='64px' height='64px' alt='/' />
+                                <Image src={REACT} alt='/' width='64px' height='64px' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>React</h3>
@@ -82,7 +82,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={NODEJS} width='64px' height='64px' alt='/' />
+                                <Image src={NODEJS} width='40px' height='40px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>NodeJS</h3>
