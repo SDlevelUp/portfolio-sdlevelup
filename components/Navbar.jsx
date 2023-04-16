@@ -12,12 +12,12 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsPersonCircle } from 'react-icons/bs';
 
 function Navbar() {
-    const [nav, setNav] = useState(false)
+    const [nav, setNav] = useState(false);
     const handleNav = () => {
         setNav(!nav)
     };
     return (
-        <div className='fixed w-full h-20 shadow-xl z-1 bg-black'>
+        <div className='fixed w-full h-20 shadow-xl z-[100] bg-black'>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Image
                     src={Essai}
@@ -40,11 +40,11 @@ function Navbar() {
                             <li className='ml-10 text-lg hover:border-b uppercase cursor-crosshair'>Skills</li>
                         </Link>
 
-                        <Link href="/">
+                        <Link href="/#projects">
                             <li className='ml-10 text-lg hover:border-b uppercase cursor-crosshair'>Mes projets</li>
                         </Link>
 
-                        <Link href="/">
+                        <Link href="/#contact">
                             <li className='ml-10 text-lg hover:border-b uppercase cursor-crosshair'>Contact</li>
                         </Link>
                     </ul>
@@ -69,11 +69,14 @@ function Navbar() {
 
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image
-                                src={EssaiSide}
-                                width='87'
-                                height='35'
-                                alt='/' />
+                            <Link href="/">
+                                <Image
+                                    src={EssaiSide}
+                                    width='87'
+                                    height='35'
+                                    alt='/' />
+                            </Link>
+
                             <div onClick={handleNav} className='p-3 cursor-crosshair text-3xl'>
                                 <AiOutlineCloseCircle />
                             </div>
@@ -87,23 +90,23 @@ function Navbar() {
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
                             <Link href='/'>
-                                <li className='py-4 text-lg'>acceuil</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-lg'>acceuil</li>
                             </Link>
 
-                            <Link href='/'>
-                                <li className='py-4 text-lg'>a propos</li>
+                            <Link href='/#about'>
+                                <li onClick={() => setNav(false)} className='py-4 text-lg'>a propos</li>
                             </Link>
 
-                            <Link href='/'>
-                                <li className='py-4 text-lg'>skills</li>
+                            <Link href='/#about'>
+                                <li onClick={() => setNav(false)} className='py-4 text-lg'>skills</li>
                             </Link>
 
-                            <Link href='/'>
-                                <li className='py-4 text-lg'>mes projets</li>
+                            <Link href='/#projects'>
+                                <li onClick={() => setNav(false)} className='py-4 text-lg'>mes projets</li>
                             </Link>
 
-                            <Link href='/'>
-                                <li className='py-4 text-lg'>contact</li>
+                            <Link href='/#contact'>
+                                <li onClick={() => setNav} className='py-4 text-lg'>contact</li>
                             </Link>
                         </ul>
                         <div className='pt-40'>
@@ -131,10 +134,10 @@ function Navbar() {
 
                         </div>
                     </div>
-                </div>
-            </div>
+                </div >
+            </div >
 
-        </div>
+        </div >
     )
 }
 

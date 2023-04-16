@@ -1,28 +1,15 @@
 import React from 'react'
-import Image from 'next/image';
 import Link from 'next/link';
-import Booki from "../public/assets/projects/booki.webp";
+import Image from 'next/image';
 
-
-
-
-function ProjectsItems() {
+const ProjectsItems = ({ backgroundImg, projectUrl }) => {
     return (
         <div className='relative flex items-center justify-center h-auto w-full group shadow-xl p-4 rounded-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
-            <Image
-                className='rounded-xl group-hover:opacity-10'
-                src={Booki}
-                alt="/"
-            />
-            <div className='hidden group-hover:block absolute pt-8 text-center'>
-                <Link href="/">
+            <Image src={backgroundImg} className='rounded-lg group-hover:opacity-10' alt="Background image" />
+            <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+                <Link href={projectUrl}>
                     <button className='text-center rounded-lg px-4 py-3 m-2'>
-                        DEMO
-                    </button>
-                </Link>
-                <Link href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2'>
-                        CODE
+                        Plus d'infos
                     </button>
                 </Link>
             </div>
@@ -30,4 +17,4 @@ function ProjectsItems() {
     )
 }
 
-export default ProjectsItems
+export default ProjectsItems;
