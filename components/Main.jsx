@@ -11,9 +11,9 @@ function Main() {
                     <h1 className='py-4 text-[33px]'>
                         Salut, je suis <span className='text-[#000]'> Sarah,</span>
                     </h1>
-                    <h1 className='py-4 text-[58px]'>
+                    {/* <h1 className='py-4 text-[58px]'>
                         <Type />
-                    </h1>
+                    </h1> */}
                 </div>
             </div>
             <a href='/#about'>
