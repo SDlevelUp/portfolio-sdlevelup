@@ -6,9 +6,9 @@ import AboutImg from "../public/assets/about.png";
 function About() {
     return (
         <div id='about' className=' z-1 w-full md:h-screen p-2 flex items-center py-16 z-1'>
-            <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+            <div className='max-w-[1240px] m-auto md:grid lg:grid-cols-3 gap-8'>
                 <div className='col-span-2'>
-                    <p className='uppercase text-xl tracking-widest text-gray-900 font-bold'>
+                    <p className='uppercase text-xl tracking-widest text-gray-900 font-bold  underline underline-offset-4'>
                         A propos
                     </p>
                     <h2 className='py-4 text-l'>Qui suis-je ?</h2>
