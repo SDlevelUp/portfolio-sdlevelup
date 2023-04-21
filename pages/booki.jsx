@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import BookiImg from '../public/assets/projects/booki.png'
+import BookiImg from '../public/assets/projects/booki.webp'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -10,7 +10,7 @@ const booki = () => {
             <div className=' h-[110vh] relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
-                        className='h-[187px] w-auto absolute rounded-lg'
+                        className=' h-[220px] w-[740px] absolute rounded-lg'
                         src={BookiImg}
                         alt='/'
                     />
