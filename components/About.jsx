@@ -31,7 +31,7 @@ function About() {
                         dans une formation plus ou moins longue.
                     </p>
                     <p className='py-2 italic text-gray-900 font-bold'>
-                        Le développement web est une course sans fin, mais chaque ligne de code est un pas de plus vers la ligne d'arrivée.
+                        Le développement web est une course sans fin, mais chaque ligne de code est un pas de plus vers la ligne d’arrivée.
                     </p>
                     <Link href='/#projects'>
                         <p className='py-2  underline cursor-crosshair'>
