@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import NavLogo from "../public/assets/navlogo.png";
+import NavLogo from "../public/assets/navLogo.png";
 // import React, { useState, useEffect } from 'react';
 
 import { AiOutlineCloseCircle, AiFillMail } from 'react-icons/ai';
 import { RiMenu3Line } from 'react-icons/ri';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsPersonCircle } from 'react-icons/bs';
+
 
 function Navbar() {
     const [nav, setNav] = useState(false);
