@@ -18,10 +18,10 @@ const booki = () => {
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
-                                Ce deuxième projet consister à développer un site &#39;mobile first&#39;
+                                Ce deuxième projet consister à développer un site ’mobile first’
                                 qui répertorie les menus de restaurants gastronomiques. A terme les
                                 clients pourront composer le menu de leur repas pour que les plats
-                                soient prêts à leur arrivée. La page d&#39;acceuil doit contenir un loader.
+                                soient prêts à leur arrivée. La page d’acceuil doit contenir un loader.
                             </p>
                             <a
                                 href='https://github.com/Cactus-Dev-Agency/Booki'

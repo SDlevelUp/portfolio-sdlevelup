@@ -18,7 +18,7 @@ const kasa = () => {
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
-                                Ce sixième projet consistait en la création d&#39;une application web
+                                Ce sixième projet consistait en la création d’une application web
                                 de location immobilière en suivant les maquettes Figma à disposition.
                             </p>
                             <a

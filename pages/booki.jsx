@@ -19,8 +19,8 @@ const booki = () => {
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
                                 Ce deuxième projet consister à développer un site internet qui permette aux usagers de trouver
-                                des hébergements et des activités dans la ville de leur choix&#46;
-                                Les logements sont catégorisés en deux parties : les hégerbements et les plus populaires&#46;
+                                des hébergements et des activités dans la ville de leur choix.
+                                Les logements sont catégorisés en deux parties : les hégerbements et les plus populaires.
                             </p>
                             <a
                                 href='https://github.com/Cactus-Dev-Agency/OhMyFood'

@@ -18,10 +18,10 @@ const kanap = () => {
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
-                                Ce quatrième projet du parcours développement web consistait en l&#39;intégration
-                                des éléments de l&#39;API dans les différentes pages web avec JavaScript.
+                                Ce quatrième projet du parcours développement web consistait en l’intégration
+                                des éléments de l’API dans les différentes pages web avec JavaScript.
                                 Seule le coté back-end a été codé, le front-end avait déjà été fait.
-                                Au cours du projet, un plan de test d&#39;acceptation a été planifié afin de
+                                Au cours du projet, un plan de test d’acceptation a été planifié afin de
                                 répondre aux éxigences listées dans le pdf (voir repo).
                             </p>
 
