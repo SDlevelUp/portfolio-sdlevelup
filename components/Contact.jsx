@@ -29,7 +29,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <p className='uppercase pt-8'>Me suivre</p>
-                                <div className='flex items-center justify-between py-4'>
+                                <div className='flex py-4 space-x-4'>
 
                                     <a href='https://www.linkedin.com/in/sarah-berri'>
                                         <div className='rounded-full shadow-lg  hover:shadow-fuchsia-500/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
@@ -41,18 +41,6 @@ const Contact = () => {
                                             <FaGithub />
                                         </div>
                                     </a>
-
-                                    <a href='/'>
-                                        <div className='rounded-full shadow-lg  hover:shadow-fuchsia-500/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                            <AiFillMail />
-                                        </div>
-                                    </a>
-
-                                    <Link href='/resume'>
-                                        <div className='rounded-full shadow-lg  hover:shadow-fuchsia-500/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                            <BsPersonCircle />
-                                        </div>
-                                    </Link>
 
                                 </div>
                             </div>
@@ -110,7 +98,7 @@ const Contact = () => {
                                     <label className='uppercase text-sm py-2 text-white'>Message</label>
                                     <textarea
                                         className='border-2 rounded-lg p-3'
-                                        rows='10'
+                                        rows='7'
                                         name='message'
                                         placeholder='Votre message'
                                     ></textarea>
@@ -124,7 +112,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-            </div>
+            </div >
         </div >
 
     );

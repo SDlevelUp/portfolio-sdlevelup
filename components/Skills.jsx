@@ -9,6 +9,8 @@ import TAILWIND from "../public/assets/skills/tailwind.png";
 import MONGODB from "../public/assets/skills/mongo.png";
 import NODEJS from "../public/assets/skills/node.png";
 import GITHUB from "../public/assets/skills/github.png";
+import GIT from "../public/assets/skills/git.png";
+import SASS from "../public/assets/skills/sass.png";
 
 function Skills() {
     return (
@@ -99,6 +101,29 @@ function Skills() {
                             </div>
                         </div>
                     </div>
+
+                    <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image src={GIT} width='64px' height='64px' alt='/' />
+                            </div>
+                            <div className='flex flex-col items-center justify-center'>
+                                <h3>Git</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                            <div className='m-auto'>
+                                <Image src={SASS} width='64px' height='64px' alt='/' />
+                            </div>
+                            <div className='flex flex-col items-center justify-center'>
+                                <h3>Sass</h3>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

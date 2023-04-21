@@ -39,10 +39,10 @@ const kasa = () => {
                         </div>
                         <div className='col-span-4 md:col-span-1 shadow-xl rounded-xl py-4'>
                             <div className='p-2'>
-                                <p className='text-center font-bold pb-2'>Technologies</p>
+                                <p className='text-center font-bold pb-2'>Langages</p>
                                 <div className='grid grid-cols-3 md:grid-cols-1'>
                                     <p className='text-black py-2 flex items-center'>
-                                        <RiRadioButtonFill className='pr-1' /> React
+                                        <RiRadioButtonFill className='pr-1' /> REACT
                                     </p>
                                 </div>
                             </div>
