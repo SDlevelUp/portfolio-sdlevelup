@@ -3,10 +3,6 @@ import { ScrollToTop } from '@/components/scroll';
 import { RxDoubleArrowDown } from "react-icons/rx"
 
 function Main() {
-
-
-
-
     return (
         <div id="home" className='w-full h-screen text-center'>
             <div className='max-w-[1240px] h-full w-full mx-auto p-2 flex items-center justify-center'>
@@ -19,13 +15,7 @@ function Main() {
                         <h2>Développeuse web junior</h2>
                     </div>
                 </div>
-
             </div>
-            <a href='/#about'>
-                <div className='animate-bounce flex items-center justify-center text-5xl text-[#000] relative bottom-[270px]'>
-                    <RxDoubleArrowDown />
-                </div>
-            </a>
             <ScrollToTop />
         </div>
     )
