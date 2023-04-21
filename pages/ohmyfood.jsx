@@ -7,7 +7,7 @@ import Link from 'next/link';
 const booki = () => {
     return (
         <div className='w-full'>
-            <div className=' h-[114vh] w-full relative'>
+            <div className=' h-[117vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
                         className=' h-[270px] w-[360px] absolute rounded-lg'
@@ -18,7 +18,7 @@ const booki = () => {
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
-                                Ce deuxième projet consister à développer un site “mobile first”
+                                Ce deuxième projet consister à développer un site &#39;mobile first&#39;
                                 qui répertorie les menus de restaurants gastronomiques. A terme les
                                 clients pourront composer le menu de leur repas pour que les plats
                                 soient prêts à leur arrivée. La page d'acceuil doit contenir un loader.

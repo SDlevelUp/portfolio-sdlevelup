@@ -8,7 +8,7 @@ function Main() {
             <div className='max-w-[1240px] h-full w-full mx-auto p-2 flex items-center justify-center'>
                 <div>
                     <h1 className='py-4 text-[33px]'>
-                        Salut, je suis <span className='text-[#000]'> Sarah,</span>
+                        Salut&#44; je suis <span className='text-[#000]'> Sarah&#44;</span>
                     </h1>
 
                     <div className="justify-center items-center text-5xl text-black">

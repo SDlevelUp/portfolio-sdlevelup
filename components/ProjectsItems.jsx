@@ -10,7 +10,7 @@ const ProjectsItems = ({ backgroundImg, projectUrl, tech }) => {
                 <p className='pb-4 pt-2 text-white text-center'>{tech}</p>
                 <Link href={projectUrl}>
                     <button className='w-full text-center rounded-lg px-4 py-3 m-2'>
-                        Plus d'infos
+                        Plus d&#39;infos
                     </button>
                 </Link>
             </div>

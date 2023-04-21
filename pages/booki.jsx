@@ -7,7 +7,7 @@ import Link from 'next/link';
 const booki = () => {
     return (
         <div className='w-full'>
-            <div className=' h-[114vh] w-full relative'>
+            <div className=' h-[117vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
                         className=' h-[270px] w-[360px] absolute rounded-lg'
@@ -19,8 +19,8 @@ const booki = () => {
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
                                 Ce deuxième projet consister à développer un site internet qui permette aux usagers de trouver
-                                des hébergements et des activités dans la ville de leur choix.
-                                Les logements sont catégorisés en deux parties : les hégerbements et les plus populaires.
+                                des hébergements et des activités dans la ville de leur choix&#46;
+                                Les logements sont catégorisés en deux parties : les hégerbements et les plus populaires&#46;
                             </p>
                             <a
                                 href='https://github.com/Cactus-Dev-Agency/OhMyFood'

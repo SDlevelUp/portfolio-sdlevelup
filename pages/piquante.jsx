@@ -7,7 +7,7 @@ import Link from 'next/link';
 const piquante = () => {
     return (
         <div className='w-full'>
-            <div className=' h-[114vh] w-full relative'>
+            <div className=' h-[117vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
                         className=' h-[270px] w-[360px] absolute rounded-lg'
@@ -18,15 +18,15 @@ const piquante = () => {
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
-                                Ce cinquième projet du parcours développement web consiste à
+                                Ce cinquième projet du parcours développement web consistait en
                                 la construction d'une API sécurisée pour une application d'avis gastronomiques.
                             </p>
 
                             <p className='pt-4'>
-                                Souhaitant à terme transformer l'application d'évaluation en une boutique
-                                en ligne, la première version est une « galerie de sauces » permettant aux
+                                Souhaitant à terme transformer l&#39;application d'évaluation en une boutique
+                                en ligne, la première version est une &#34;galerie de sauces&#34; permettant aux
                                 aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker
-                                ou disliker les sauces que d'autres partagent.
+                                ou disliker les sauces que d&#39;autres partagent.
                             </p>
                             <a
                                 href='https://github.com/Cactus-Dev-Agency/piquante'

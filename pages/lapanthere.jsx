@@ -7,7 +7,7 @@ import Link from 'next/link';
 const lapanthere = () => {
     return (
         <div className='w-full'>
-            <div className='h-[114vh] w-full relative'>
+            <div className=' h-[117vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
                         className='h-[220px] w-[740px] absolute rounded-lg'
@@ -18,10 +18,10 @@ const lapanthere = () => {
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
-                                Ce troisième projet consister en l'optimisation d'un site web existant.
+                                Ce troisième projet consister en l&#39;optimisation d&#39;un site web existant.
                                 La Panthère est une agence de web design qui a bien démarrée mais qui
                                 est actuellement en perte de vitesse, pour pallier à celà, je devais
-                                assurer l'accessibilité du sie en optimisant sa taille, sa vitesse
+                                assurer l&#39;accessibilité du sie en optimisant sa taille, sa vitesse
                                 de chargement ainsi que le référencement.
                             </p>
                             <a
@@ -61,7 +61,7 @@ const lapanthere = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

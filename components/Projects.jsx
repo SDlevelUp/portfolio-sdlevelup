@@ -15,7 +15,7 @@ function Projects() {
                     Mes projets
                 </p>
                 <h1 className='py-4'>
-                    Les projets que j'ai réalisé au cours de ma formation
+                    Les projets que j&#39;ai réalisé au cours de ma formation
                 </h1>
                 <div className='grid md:grid-cols-2 gap-8'>
                     <ProjectsItems
@@ -45,7 +45,7 @@ function Projects() {
                     <ProjectsItems
                         backgroundImg={PiquanteImg}
                         projectUrl="/piquante"
-                        tech='NODEJS,EXPRESSJS, MONGODB'
+                        tech='NODEJS, EXPRESSJS, MONGODB'
                     />
 
                     <ProjectsItems

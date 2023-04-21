@@ -7,7 +7,7 @@ import Link from 'next/link';
 const kasa = () => {
     return (
         <div className='w-full'>
-            <div className=' h-[114vh] w-full relative'>
+            <div className=' h-[117vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0 object-cover fill-none'>
                     <Image
                         className=' h-[220px] w-[740px] absolute rounded-lg'
@@ -18,7 +18,7 @@ const kasa = () => {
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
-                                Ce sixième projet consister en la création d'une application web
+                                Ce sixième projet consistait en la création d'une application web
                                 de location immobilière en suivant les maquettes Figma à disposition.
                             </p>
                             <a

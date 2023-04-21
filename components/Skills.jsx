@@ -27,7 +27,7 @@ function Skills() {
                                 <Image src={HTML} width='64px' height='64px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>HTML</h3>
+                                <h3>HTML5</h3>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ function Skills() {
                                 <Image src={CSS} width='64px' height='64px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>CSS</h3>
+                                <h3>CSS3</h3>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ function Skills() {
                                 <Image src={JAVASCRIPT} width='64px' height='64px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>JavaScript</h3>
+                                <h3>JAVASCRIPT</h3>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ function Skills() {
                                 <Image src={REACT} alt='/' width='64px' height='64px' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>React</h3>
+                                <h3>REACT</h3>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ function Skills() {
                                 <Image src={TAILWIND} width='64px' height='64px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>Tailwind</h3>
+                                <h3>TAILWIND</h3>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ function Skills() {
                                 <Image src={MONGODB} width='64px' height='64px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>MongoDB</h3>
+                                <h3>MONGODB</h3>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ function Skills() {
                                 <Image src={NODEJS} width='40px' height='40px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>NodeJS</h3>
+                                <h3>NODEJS</h3>
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ function Skills() {
                                 <Image src={GITHUB} width='64px' height='64px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>Github</h3>
+                                <h3>GITHUB</h3>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ function Skills() {
                                 <Image src={GIT} width='64px' height='64px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>Git</h3>
+                                <h3>GIT</h3>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ function Skills() {
                                 <Image src={SASS} width='64px' height='64px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>Sass</h3>
+                                <h3>SASS</h3>
                             </div>
                         </div>
                     </div>

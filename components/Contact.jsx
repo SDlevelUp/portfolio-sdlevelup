@@ -24,7 +24,10 @@ const Contact = () => {
                                 <p>Développeuse web junior</p>
                                 <p className='py-4'>
                                     Je suis disponible pour des missions en free-lance
-                                    ou en entreprise. Contactez-moi !
+                                    ou en entreprise.
+                                    <br />
+                                    <br />
+                                    Contactez-moi &#33;
                                 </p>
                             </div>
                             <div>

@@ -15,19 +15,19 @@ function About() {
                     <p className='py-2 indent-7'>
                         Développeuse web junior enthousiaste et motivée à apprendre de nouvelles compétences.
                         Ayant récemment obtenu mon diplôme avec <a href='https://openclassrooms.com/fr/' className='text-[#000] cursor-crosshair'>Openclassrooms</a>,
-                        j'ai acquis des compétances en développement web, en langages de programmation tels que HTML,
-                        CSS et JavaScript, ainsi qu'en conception de bases de données. Je suis prête à relever
+                        j&#39;ai acquis des compétances en développement web, en langages de programmation tels que HTML,
+                        CSS et JavaScript, ainsi qu&#39;en conception de bases de données. Je suis prête à relever
                         de nouveaux défis et à travailler avec vous pour créer des projets web innovants et de qualité.
                     </p>
                     <p className='py-2 indent-7'>
                         Depuis ado je me suis toujours interessée au codage et la programmation mais sans jamais
-                        sauter le pas, puis après mon l'obtention de BTS Bâtiment en 2013 (qui n'a aucun rapport
-                        avec le développement web ^^) j'étais dans le doute quant à mon avenir dans le BTP.
+                        sauter le pas, puis après mon l&#39;obtention de BTS Bâtiment en 2013 (qui n&#39;a aucun rapport
+                        avec le développement web ^^) j&#39;étais dans le doute quant à mon avenir dans le BTP.
                     </p>
                     <p className='py-2 indent-7'>
-                        Puis j'ai commencé à apprendre la programmation en 2013 avec les cours gratuits
+                        Puis j&#39;ai commencé à apprendre la programmation en 2013 avec les cours gratuits
                         de la <a href='https://3wa.fr/' className='text-[#000] cursor-crosshair'>3WAcademy</a>, que je recommande
-                        d'ailleurs à tout débutant souhaitant s'initier à la programmation avant de se lancer
+                        d&#39;ailleurs à tout débutant souhaitant s&#39;initier à la programmation avant de se lancer
                         dans une formation plus ou moins longue.
                     </p>
                     <p className='py-2 italic text-gray-900 font-bold'>
