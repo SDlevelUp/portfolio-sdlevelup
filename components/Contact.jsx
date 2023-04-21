@@ -7,12 +7,12 @@ import { AiFillMail } from 'react-icons/ai';
 
 const Contact = () => {
     return (
-        <div id='contact' className='w-full lg:h-screen'>
+        <div id='contact' className='w-full lg:h-full'>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
                 <p className='text-xl tracking-widest uppercase text-gray-900 font-bold underline underline-offset-4'>
                     Contact
                 </p>
-                <h2 className='py-4 text-lg'>Me contacter</h2>
+                <h2 className='py-4 '>Me contacter</h2>
                 <div className='grid lg:grid-cols-5 gap-8'>
                     {/* left */}
                     <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
@@ -21,7 +21,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h2 className='py-2'>Sarah Berri | CactusDev</h2>
-                                <p>Développeuse web</p>
+                                <p>Développeuse web junior</p>
                                 <p className='py-4'>
                                     Je suis disponible pour des missions en free-lance
                                     ou en entreprise. Contactez-moi !

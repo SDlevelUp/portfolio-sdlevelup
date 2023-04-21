@@ -7,14 +7,14 @@ import Link from 'next/link';
 const booki = () => {
     return (
         <div className='w-full'>
-            <div className=' h-[110vh] relative'>
+            <div className=' h-[114vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
-                        className=' h-[220px] w-[740px] absolute rounded-lg'
+                        className=' h-[270px] w-[360px] absolute rounded-lg'
                         src={BookiImg}
                         alt='/'
                     />
-                    <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[410px] relative'>
+                    <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[420px] relative'>
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>

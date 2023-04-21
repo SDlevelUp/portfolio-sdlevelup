@@ -1,21 +1,20 @@
 import Image from 'next/image';
 import React from 'react';
-import lapanthereImg from '../public/assets/projects/lapanthere.webp';
+import LapanthereImg from '../public/assets/projects/lapanthere.webp';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
 const lapanthere = () => {
     return (
         <div className='w-full'>
-            <div className='w-screen h-screen '>
-                <div className='top-[270px] justify-center flex items-center w-full absolute '>
+            <div className='h-[114vh] w-full relative'>
+                <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
-                        className='h-auto w-[940px] absolute rounded-lg'
-                        src={lapanthereImg}
-
+                        className='h-[220px] w-[740px] absolute rounded-lg'
+                        src={LapanthereImg}
                         alt='/'
                     />
-                    <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[370px] relative'>
+                    <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[430px] relative'>
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>

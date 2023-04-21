@@ -15,8 +15,6 @@ html {
   font-family: 'Source Code Pro', sans-serif;
 }
 
-
-
 @layer base {
   body {
     @apply text-[#ffffff] tracking-wide bg-gradient-to-b from-purple-300 to-purple-700
