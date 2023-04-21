@@ -11,7 +11,7 @@ function About() {
                     <p className='uppercase text-xl tracking-widest text-gray-900 font-bold  underline underline-offset-4'>
                         A propos
                     </p>
-                    <h2 className='py-4 text-l'>Qui suis-je ?</h2>
+                    <h2 className='py-4'>Qui suis-je ?</h2>
                     <p className='py-2 indent-7'>
                         Développeuse web junior enthousiaste et motivée à apprendre de nouvelles compétences.
                         Ayant récemment obtenu mon diplôme avec <a href='https://openclassrooms.com/fr/' className='text-[#000] cursor-crosshair'>Openclassrooms</a>,

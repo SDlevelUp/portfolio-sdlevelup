@@ -123,26 +123,18 @@ function Navbar() {
                                 <li onClick={() => setNav} className='py-4 text-sm'>contact</li>
                             </Link>
                         </ul>
-                        <div className='pt-40'>
+                        <div className='pt-10'>
                             <p className='uppercase tracking-widest text-[#150b1d]'>
                                 Soyons connectés
                             </p>
-                            <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+                            <div className='flex space-x-4 my-4 w-full sm:w-[80%]'>
 
-                                <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300'>
+                                <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                     <FaLinkedinIn />
                                 </div>
 
-                                <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300'>
+                                <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                     <FaGithub />
-                                </div>
-
-                                <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300'>
-                                    <AiFillMail />
-                                </div>
-
-                                <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300'>
-                                    <BsPersonCircle />
                                 </div>
                             </div>
 

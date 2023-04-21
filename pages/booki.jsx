@@ -7,7 +7,7 @@ import Link from 'next/link';
 const booki = () => {
     return (
         <div className='w-full'>
-            <div className='w-screen h-screen '>
+            <div className='w-screen h-screen'>
                 <div className='top-[270px] justify-center flex items-center w-full absolute '>
                     <Image
                         className='h-auto w-[940px] absolute rounded-lg'

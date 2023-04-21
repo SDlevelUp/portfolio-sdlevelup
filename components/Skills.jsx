@@ -19,7 +19,7 @@ function Skills() {
                 <p className='text-xl tracking-widest uppercase text-gray-900 font-bold  underline underline-offset-4'>
                     Skills
                 </p>
-                <h2 className='py-4 text-xl'>Mes compétances</h2>
+                <h2 className='py-4'>Mes compétances</h2>
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>

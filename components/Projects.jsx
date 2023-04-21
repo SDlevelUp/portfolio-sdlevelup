@@ -14,9 +14,9 @@ function Projects() {
                 <p className='text-xl tracking-widest uppercase text-gray-900 font-bold underline underline-offset-4'>
                     Mes projets
                 </p>
-                <h2 className='py-4'>
+                <h1 className='py-4'>
                     Les projets que j'ai réalisé au cours de ma formation
-                </h2>
+                </h1>
                 <div className='grid md:grid-cols-2 gap-8'>
                     <ProjectsItems
                         backgroundImg={BookiImg}
