@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectsItems from './ProjectsItems';
-import BookiImg from "../public/assets/projects/booki.webp";
+import BookiImg from "../public/assets/projects/booki.png";
 import OhmyfoodImg from "../public/assets/projects/ohmyfood.webp";
 import LapanthereImg from "../public/assets/projects/lapanthere.webp";
 import KanapImg from "../public/assets/projects/kanap.webp";

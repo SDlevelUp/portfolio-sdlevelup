@@ -1,18 +1,17 @@
 import Image from 'next/image';
 import React from 'react';
-import ohmyfoodImg from '../public/assets/projects/ohmyfood.webp';
+import OhmyfoodImg from '../public/assets/projects/ohmyfood.webp';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
 const booki = () => {
     return (
         <div className='w-full'>
-            <div className='w-screen h-screen '>
-                <div className='top-[260px] justify-center flex items-center w-full absolute '>
+            <div className=' h-[110vh] relative'>
+                <div className='top-[300px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
-                        className='h-auto w-[940px] absolute rounded-lg'
-                        src={ohmyfoodImg}
-
+                        className='h-[220px] w-[640px] absolute rounded-lg'
+                        src={OhmyfoodImg}
                         alt='/'
                     />
                     <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[370px] relative'>
