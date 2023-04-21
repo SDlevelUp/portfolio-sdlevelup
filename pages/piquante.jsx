@@ -19,11 +19,11 @@ const piquante = () => {
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
                                 Ce cinquième projet du parcours développement web consistait en
-                                la construction d'une API sécurisée pour une application d'avis gastronomiques.
+                                la construction d&#39;une API sécurisée pour une application d&#39;avis gastronomiques.
                             </p>
 
                             <p className='pt-4'>
-                                Souhaitant à terme transformer l&#39;application d'évaluation en une boutique
+                                Souhaitant à terme transformer l&#39;application d&#39;évaluation en une boutique
                                 en ligne, la première version est une &#34;galerie de sauces&#34; permettant aux
                                 aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker
                                 ou disliker les sauces que d&#39;autres partagent.
