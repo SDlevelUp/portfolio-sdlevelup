@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Sarah | Développeuse web junior</title>
+        <title>Sarah, développeuse web junior</title>
         <meta name="description" content="Développeuse web junior" />
         <link rel="icon" href="/fav.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
