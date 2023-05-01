@@ -5,13 +5,15 @@ import Link from 'next/link';
 import NavLogo from "../public/assets/navLogo.png";
 // import React, { useState, useEffect } from 'react';
 
-import { AiOutlineCloseCircle, AiFillMail } from 'react-icons/ai';
+import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { RiMenu3Line } from 'react-icons/ri';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 
 function Navbar() {
     const [nav, setNav] = useState(false);
+    const [shadow, setShadow] = useState(false);
+
     const handleNav = () => {
         setNav(!nav)
     };
