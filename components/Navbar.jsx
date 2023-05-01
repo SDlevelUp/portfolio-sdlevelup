@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -15,6 +15,18 @@ function Navbar() {
     const handleNav = () => {
         setNav(!nav)
     };
+
+    useEffect(() => {
+        const handleShadow = () => {
+            if (window.scrollY >= 90) {
+                setShadow(true);
+            } else {
+                setShadow(false);
+            }
+        };
+        window.addEventListener('scroll', handleShadow);
+    }, []);
+
     return (
         <div className='fixed w-full h-20 shadow-xl z-[100] bg-black'>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
@@ -104,42 +116,60 @@ function Navbar() {
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
                             <Link href='/'>
-                                <li onClick={() => setNav(false)} className='py-4 text-sm'>acceuil</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    acceuil
+                                </li>
                             </Link>
 
                             <Link href='/#about'>
-                                <li onClick={() => setNav(false)} className='py-4 text-sm'>a propos</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    a propos
+                                </li>
                             </Link>
 
                             <Link href='/#about'>
-                                <li onClick={() => setNav(false)} className='py-4 text-sm'>skills</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    skills
+                                </li>
                             </Link>
 
                             <Link href='/#projects'>
-                                <li onClick={() => setNav(false)} className='py-4 text-sm'>mes projets</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    mes projets
+                                </li>
                             </Link>
 
                             <Link href='/#contact'>
-                                <li onClick={() => setNav} className='py-4 text-sm'>contact</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    contact
+                                </li>
                             </Link>
                         </ul>
+
                         <div className='pt-10'>
                             <p className='uppercase tracking-widest text-[#150b1d]'>
                                 Soyons connectés
                             </p>
                             <div className='flex space-x-4 my-4 w-full sm:w-[80%]'>
-
-                                <Link href="https://www.linkedin.com/in/sarah-berri">
+                                <a
+                                    href="https://www.linkedin.com/in/sarah-berri"
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
                                     <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                         <FaLinkedinIn />
                                     </div>
-                                </Link>
+                                </a>
 
-                                <Link href="https://github.com/SarahBerri">
+                                <a href="https://github.com/SarahBerri"
+                                    target='_blank'
+                                    rel='noreferrer'
+
+                                >
                                     <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                         <FaGithub />
                                     </div>
-                                </Link>
+                                </a>
                             </div>
 
                         </div>

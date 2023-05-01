@@ -59,18 +59,23 @@ const Contact = () => {
                             <div>
                                 <p className='uppercase pt-8'>Me suivre</p>
                                 <div className='flex py-4 space-x-4'>
+                                    <Link href='https://www.linkedin.com/in/sarah-berri'
+                                        target='_blank'
+                                        rel='noreferrer'
 
-                                    <Link href='https://www.linkedin.com/in/sarah-berri'>
+                                    >
                                         <div className='rounded-full shadow-lg  hover:shadow-fuchsia-500/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                             <FaLinkedinIn />
                                         </div>
                                     </Link>
-                                    <Link href="https://github.com/Cactus-Dev-Agency">
+                                    <a href="https://github.com/SarahBerri"
+                                        target='_blank'
+                                        rel='noreferrer'
+                                    >
                                         <div className='rounded-full shadow-lg  hover:shadow-fuchsia-500/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                             <FaGithub />
                                         </div>
-                                    </Link>
-
+                                    </a>
                                 </div>
                             </div>
                         </div>
