@@ -50,7 +50,7 @@ const Contact = () => {
                                 <p>Développeuse web junior</p>
                                 <p className='py-4'>
                                     Je suis disponible pour des missions en free-lance
-                                    ou en entreprise.
+                                    ou pour rejoindre votre équipe.
                                     <br />
                                     <br />
                                     Contactez-moi &#33;
@@ -148,7 +148,7 @@ const Contact = () => {
                                     />
                                     {errors.objet && (
                                         <small className='pl-2 font-semibold text-white'>
-                                            Vous devez renseigner l'objet de votre message.
+                                            Vous devez renseigner l’objet de votre message.
                                         </small>
                                     )}
                                 </div>
