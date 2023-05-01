@@ -1,11 +1,37 @@
-
 import Link from 'next/link';
-
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import { BsPersonCircle } from 'react-icons/bs';
-import { AiFillMail } from 'react-icons/ai';
+import { useForm } from 'react-hook-form';
+
 
 const Contact = () => {
+
+    // Variables
+    const {
+        register,
+        handleSubmit,
+        formState: { errors },
+    } = useForm();
+
+    // Méthode
+    const onSubmitHandler = data => {
+        console.log(data);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     return (
         <div id='contact' className='w-full lg:h-full'>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
@@ -34,16 +60,16 @@ const Contact = () => {
                                 <p className='uppercase pt-8'>Me suivre</p>
                                 <div className='flex py-4 space-x-4'>
 
-                                    <a href='https://www.linkedin.com/in/sarah-berri'>
+                                    <Link href='https://www.linkedin.com/in/sarah-berri'>
                                         <div className='rounded-full shadow-lg  hover:shadow-fuchsia-500/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                             <FaLinkedinIn />
                                         </div>
-                                    </a>
-                                    <a href="https://github.com/Cactus-Dev-Agency">
+                                    </Link>
+                                    <Link href="https://github.com/Cactus-Dev-Agency">
                                         <div className='rounded-full shadow-lg  hover:shadow-fuchsia-500/40 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                             <FaGithub />
                                         </div>
-                                    </a>
+                                    </Link>
 
                                 </div>
                             </div>
@@ -53,7 +79,7 @@ const Contact = () => {
                     {/* right */}
                     <div className='col-span-3 w-full h-auto shadow-xl text-black rounded-xl lg:p-4'>
                         <div className='p-4'>
-                            <form
+                            <form onSubmit={handleSubmit(onSubmitHandler)}
                                 method='POST'
                                 encType='multipart/form-data'
                             >
@@ -63,48 +89,85 @@ const Contact = () => {
                                         <input
                                             className='border-2 rounded-lg p-3 flex border-gray-300'
                                             type='text'
-                                            name='name'
-                                            placeholder='Nom, Prénom'
+                                            name='lastname'
+                                            placeholder='Votre Nom'
+                                            {...register('nom', {
+                                                required: true
+                                            })}
                                         />
+                                        {errors.nom && (
+                                            <small className='pl-2 font-semibold text-white'>
+                                                Vous devez renseigner votre nom.
+                                            </small>
+                                        )}
                                     </div>
                                     <div className='flex flex-col'>
                                         <label className='uppercase text-sm py-2 text-white'>
-                                            Numéro de téléphone
+                                            Prénom
                                         </label>
                                         <input
                                             className='border-2 rounded-lg p-3 flex border-gray-300'
                                             type='text'
-                                            name='phone'
-                                            placeholder='Téléphone'
+                                            placeholder='Votre Prénom'
+                                            {...register('prenom', {
+                                                required: true
+                                            })}
                                         />
+                                        {errors.prenom && (
+                                            <small className='pl-2 font-semibold text-white'>
+                                                Vous devez renseigner votre prénom.
+                                            </small>
+                                        )}
                                     </div>
                                 </div>
                                 <div className='flex flex-col py-2'>
-                                    <label className='uppercase text-sm py-2 text-white'>Email</label>
+                                    <label className='uppercase text-sm py-2 text-white'>E-mail</label>
                                     <input
                                         className='border-2 rounded-lg p-3 flex border-gray-300'
                                         type='email'
-                                        name='email'
-                                        placeholder='Votre Email'
+                                        placeholder='Votre adresse mail'
+                                        {...register('email', {
+                                            required: true
+                                        })}
                                     />
+                                    {errors.email && (
+                                        <small className='pl-2 font-semibold text-white'>
+                                            Vous devez renseigner une adresse e-mail.
+                                        </small>
+                                    )}
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2 text-white'>Objet du message</label>
                                     <input
                                         className='border-2 rounded-lg p-3 flex border-gray-300'
                                         type='text'
-                                        name='subject'
-                                        placeholder='Objet du message'
+                                        placeholder='Je vous contact pour...'
+                                        {...register('objet', {
+                                            required: true
+                                        })}
                                     />
+                                    {errors.objet && (
+                                        <small className='pl-2 font-semibold text-white'>
+                                            Vous devez renseigner l'objet de votre message.
+                                        </small>
+                                    )}
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label className='uppercase text-sm py-2 text-white'>Message</label>
                                     <textarea
                                         className='border-2 rounded-lg p-3'
                                         rows='7'
-                                        name='message'
-                                        placeholder='Votre message'
-                                    ></textarea>
+                                        placeholder='Bonjour...'
+                                        {...register('message', {
+                                            required: true
+                                        })}
+                                    >
+                                    </textarea>
+                                    {errors.message && (
+                                        <small className='pl-2 font-semibold text-white'>
+                                            Vous devez renseigner le contenu de votre message.
+                                        </small>
+                                    )}
                                 </div>
                                 <button
                                     className='w-full p-4 text-white bg-gradient-to-r from-fuchsia-500 to-purple-500'>
@@ -114,10 +177,8 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
             </div >
         </div >
-
     );
 };
 

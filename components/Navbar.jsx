@@ -129,13 +129,17 @@ function Navbar() {
                             </p>
                             <div className='flex space-x-4 my-4 w-full sm:w-[80%]'>
 
-                                <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
-                                    <FaLinkedinIn />
-                                </div>
+                                <Link href="https://www.linkedin.com/in/sarah-berri">
+                                    <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
+                                        <FaLinkedinIn />
+                                    </div>
+                                </Link>
 
-                                <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
-                                    <FaGithub />
-                                </div>
+                                <Link href="https://github.com/SarahBerri">
+                                    <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
+                                        <FaGithub />
+                                    </div>
+                                </Link>
                             </div>
 
                         </div>
