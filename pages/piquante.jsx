@@ -29,7 +29,7 @@ const piquante = () => {
                                 ou disliker les sauces que d’autres partagent.
                             </p>
                             <a
-                                href='https://github.com/Cactus-Dev-Agency/piquante'
+                                href='https://github.com/SarahBerri/Piquante'
                                 target='_blank'
                                 rel='noreferrer'
                             >

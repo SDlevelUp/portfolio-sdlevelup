@@ -24,14 +24,14 @@ const booki = () => {
                                 soient prêts à leur arrivée. La page d’acceuil doit contenir un loader.
                             </p>
                             <a
-                                href='https://github.com/Cactus-Dev-Agency/Booki'
+                                href='https://github.com/SarahBerri/OhMyFood'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                             </a>
                             <a
-                                href='https://cactus-dev-agency.github.io/OhMyFood/'
+                                href='https://sarahberri.github.io/OhMyFood/'
                                 target='_blank'
                                 rel='noreferrer'
                             >

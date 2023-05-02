@@ -25,14 +25,14 @@ const lapanthere = () => {
                                 de chargement ainsi que le référencement.
                             </p>
                             <a
-                                href='https://github.com/Cactus-Dev-Agency/LaPanthere'
+                                href='https://github.com/SarahBerri/LaPanthere'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                             </a>
                             <a
-                                href='https://cactus-dev-agency.github.io/LaPanthere/'
+                                href='https://sarahberri.github.io/LaPanthere/'
                                 target='_blank'
                                 rel='noreferrer'
                             >

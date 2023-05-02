@@ -47,31 +47,37 @@ function Navbar() {
                 />
                 <div>
                     <ul className='hidden md:flex'>
+
                         <Link href="/">
-                            <li className={`nav-link mx-4 cursor-crosshair uppercase ${activeSection === 'home' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('home')}>
-                                Accueil
+                            <li className={`nav-link mx-4 cursor-crosshair ${activeSection === 'home' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('home')}>
+                                ACCEUIL
                             </li>
                         </Link>
+
                         <Link href="/#about">
-                            <li className={`nav-link mx-4 cursor-crosshair uppercase ${activeSection === 'about' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('about')}>
-                                A propos
+                            <li className={`nav-link mx-4 cursor-crosshair  ${activeSection === 'about' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('about')}>
+                                A PROPOS
                             </li>
                         </Link>
+
                         <Link href="/#skills">
-                            <li className={`nav-link mx-4 cursor-crosshair uppercase ${activeSection === 'skills' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('skills')}>
-                                Skills
+                            <li className={`nav-link mx-4 cursor-crosshair ${activeSection === 'skills' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('skills')}>
+                                SKILLS
                             </li>
                         </Link>
+
                         <Link href="/#projects">
-                            <li className={`nav-link mx-4 cursor-crosshair uppercase${activeSection === 'projects' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('projects')}>
+                            <li className={`nav-link mx-4 cursor-crosshair text-transform: uppercase ${activeSection === 'projects' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('projects')}>
                                 Mes projets
                             </li>
                         </Link>
+
                         <Link href="/#contact">
-                            <li className={`nav-link mx-4 cursor-crosshair uppercase${activeSection === 'contact' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('contact')}>
-                                Contact
+                            <li className={`nav-link mx-4 cursor-crosshair ${activeSection === 'contact' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('contact')}>
+                                CONTACT
                             </li>
                         </Link>
+
                     </ul>
                     <div onClick={handleNav} className='md:hidden'>
                         <RiMenu3Line size={25} />
