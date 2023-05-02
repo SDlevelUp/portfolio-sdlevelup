@@ -34,8 +34,6 @@ function Main()
                     <h1 className='py-4 text-[33px] '>
                         Salut&#44; je suis <span className='text-[#000]'> Sarah&#44;</span>
                     </h1>
-
-                    
                    <h2 className="py-2" >Développeuse web junior</h2>
                     
                     <div className='w-full h-auto flex justify-center lg:justify-center lg:items-center '>
