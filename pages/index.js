@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="description" content="Développeuse web junior" />
         <link rel="icon" href="/fav.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
       </Head>
       <Main />
       <About />

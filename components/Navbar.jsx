@@ -13,10 +13,16 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 function Navbar() {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
+    const [activeSection, setActiveSection] = useState('home');
 
     const handleNav = () => {
         setNav(!nav)
     };
+
+    const handleSetActiveSection = (section) => {
+        setActiveSection(section);
+    };
+
 
     useEffect(() => {
         const handleShadow = () => {
@@ -42,43 +48,36 @@ function Navbar() {
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href="/">
-                            <li className='ml-10 text-sm hover:border-b uppercase cursor-crosshair'>
-                                Acceuil
+                            <li className={`nav-link mx-4 cursor-crosshair uppercase ${activeSection === 'home' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('home')}>
+                                Accueil
                             </li>
                         </Link>
-
                         <Link href="/#about">
-                            <li className='ml-10 text-sm hover:border-b uppercase cursor-crosshair'>
+                            <li className={`nav-link mx-4 cursor-crosshair uppercase ${activeSection === 'about' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('about')}>
                                 A propos
                             </li>
                         </Link>
-
                         <Link href="/#skills">
-                            <li className='ml-10 text-sm hover:border-b uppercase cursor-crosshair'>
+                            <li className={`nav-link mx-4 cursor-crosshair uppercase ${activeSection === 'skills' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('skills')}>
                                 Skills
                             </li>
                         </Link>
-
                         <Link href="/#projects">
-                            <li className='ml-10 text-sm hover:border-b uppercase cursor-crosshair'>
+                            <li className={`nav-link mx-4 cursor-crosshair uppercase${activeSection === 'projects' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('projects')}>
                                 Mes projets
                             </li>
                         </Link>
-
                         <Link href="/#contact">
-                            <li className='ml-10 text-sm hover:border-b uppercase cursor-crosshair'>
+                            <li className={`nav-link mx-4 cursor-crosshair uppercase${activeSection === 'contact' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('contact')}>
                                 Contact
                             </li>
                         </Link>
                     </ul>
-
-                    <div
-                        onClick={handleNav}
-                        className='md:hidden'
-                    >
+                    <div onClick={handleNav} className='md:hidden'>
                         <RiMenu3Line size={25} />
                     </div>
                 </div>
+
             </div>
             <div
                 className={

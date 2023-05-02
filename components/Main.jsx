@@ -1,8 +1,30 @@
-import React from "react"
+import React from "react";
 import { ScrollToTop } from '@/components/scroll';
-import { RxDoubleArrowDown } from "react-icons/rx"
+import { motion } from 'framer-motion';
 
+function Astronaut() {
+    return (
+        <motion.div
+            className="w-2/3 h-auto"
+            animate={{
+                y: [-10, 10],
+            }}
+            transition={{
+                duration: 2,
+                repeat: Infinity,
+                repeatType: "reverse",
+            }}
+        >
+            <motion.img
+                src="../assets/astronaut.svg"
+                alt="Astronaut"
+                className="w-full animate-spin-slow"
+            />
+        </motion.div>
+    );
+}
 function Main() {
+
     return (
         <div id="home" className='w-full h-screen text-center'>
             <div className='max-w-[1240px] h-full w-full mx-auto p-2 flex items-center justify-center'>
@@ -14,6 +36,13 @@ function Main() {
                     <div className="justify-center items-center text-5xl text-black">
                         <h2>Développeuse web junior</h2>
                     </div>
+
+                    <div className='w-full h-auto flex justify-center lg:justify-center lg:items-center '>
+                        <div className="w-full h-auto flex items-center justify-center mt-[80px]">
+                            <Astronaut />
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <ScrollToTop />
@@ -21,4 +50,4 @@ function Main() {
     )
 }
 
-export default Main
+export default Main;
