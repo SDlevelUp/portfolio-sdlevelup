@@ -186,7 +186,7 @@ function Navbar() {
                                     rel='noreferrer'
                                 >
                                     <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
-                                        <IoMdMail />
+
                                     </div>
                                 </Link>
                             </div>
