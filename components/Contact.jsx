@@ -1,8 +1,6 @@
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Link from 'next/link';
-
 import { IoMdMail } from 'react-icons/io';
-
 
 const Contact = () => {
     return (
@@ -14,12 +12,14 @@ const Contact = () => {
                 {/* left */}
                 <div className='w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full '>
-                        <h2 className='py-5'>S'Dlevel'Up</h2>
+                        <h2 className='py-5'>S’Dlevel’Up</h2>
                         <p>Développeuse web.</p>
                         <p className='py-4'>
                             Je suis disponible pour des missions en free-lance ou pour rejoindre une équipe dynamique.
                         </p>
-                        <p className='uppercase pt-8 text-black font-semibold'>Me suivre</p>
+                        <p className='uppercase pt-8 text-black font-semibold'>
+                            Me suivre et me contacter
+                        </p>
                         <div className='flex py-4 space-x-4'>
                             <Link href=
                                 'https://www.linkedin.com/in/sarah-berri'
@@ -32,7 +32,7 @@ const Contact = () => {
                             </Link>
 
                             <Link href=
-                                "https://github.com/SarahBerri"
+                                "https://github.com/sarah-berri"
                                 target='_blank'
                                 rel='noreferrer'
                             >
