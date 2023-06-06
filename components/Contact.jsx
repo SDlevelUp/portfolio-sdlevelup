@@ -32,7 +32,7 @@ const Contact = () => {
                             </Link>
 
                             <Link href=
-                                "https://github.com/sarah-berri"
+                                "https://github.com/SDlevelUp"
                                 target='_blank'
                                 rel='noreferrer'
                             >

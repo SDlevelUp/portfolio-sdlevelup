@@ -171,7 +171,7 @@ function Navbar() {
                                 </Link>
 
                                 <Link
-                                    href="https://github.com/SarahBerri"
+                                    href="https://github.com/SDlevelUp"
                                     target='_blank'
                                     rel='noreferrer'
                                 >
