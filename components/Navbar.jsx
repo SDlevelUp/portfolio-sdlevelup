@@ -1,90 +1,98 @@
-import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
+import { Link as ScrollLink } from 'react-scroll';
 import Link from 'next/link';
+import { useState } from 'react';
 
-import NavLogo from "../public/assets/navLogo.png";
-// import React, { useState, useEffect } from 'react';
-
+import Logo from "../public/assets/logo4.png";
+import Image from 'next/image';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { RiMenu3Line } from 'react-icons/ri';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-
+import { IoMdMail } from 'react-icons/io';
 
 function Navbar() {
     const [nav, setNav] = useState(false);
-    const [shadow, setShadow] = useState(false);
     const [activeSection, setActiveSection] = useState('home');
 
     const handleNav = () => {
-        setNav(!nav)
+        setNav(!nav);
     };
 
     const handleSetActiveSection = (section) => {
         setActiveSection(section);
     };
 
-
-    useEffect(() => {
-        const handleShadow = () => {
-            if (window.scrollY >= 90) {
-                setShadow(true);
-            } else {
-                setShadow(false);
-            }
-        };
-        window.addEventListener('scroll', handleShadow);
-    }, []);
-
     return (
         <div className='fixed w-full h-20 shadow-xl z-[100] bg-black'>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Image
-                    src={NavLogo}
+                    src={Logo}
                     alt='Logo'
-                    width='125'
-                    height='50'
+                    width='170'
                     className='cursor-crosshair'
                 />
                 <div>
                     <ul className='hidden md:flex'>
+                        <ScrollLink
+                            to="home"
+                            smooth={true}
+                            duration={200}
+                            offset={-100}
+                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'home' ? 'border-b-2 border-white' : ''}`}
+                            onClick={() => handleSetActiveSection('home')}
+                        >
+                            acceuil
+                        </ScrollLink>
 
-                        <Link href="/">
-                            <li className={`nav-link mx-4 cursor-crosshair ${activeSection === 'home' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('home')}>
-                                ACCEUIL
-                            </li>
-                        </Link>
+                        <ScrollLink
+                            to="about"
+                            smooth={true}
+                            duration={200}
+                            offset={-100}
+                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'about' ? 'border-b-2 border-white' : ''}`}
+                            onClick={() => handleSetActiveSection('about')}
+                        >
+                            à propos
+                        </ScrollLink>
 
-                        <Link href="/#about">
-                            <li className={`nav-link mx-4 cursor-crosshair  ${activeSection === 'about' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('about')}>
-                                A PROPOS
-                            </li>
-                        </Link>
+                        <ScrollLink
+                            to="skills"
+                            smooth={true}
+                            duration={200}
+                            offset={-100}
+                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'skills' ? 'border-b-2 border-white' : ''}`}
+                            onClick={() => handleSetActiveSection('skills')}
+                        >
+                            skills
+                        </ScrollLink>
 
-                        <Link href="/#skills">
-                            <li className={`nav-link mx-4 cursor-crosshair ${activeSection === 'skills' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('skills')}>
-                                SKILLS
-                            </li>
-                        </Link>
+                        <ScrollLink
+                            to="projects"
+                            smooth={true}
+                            duration={200}
+                            offset={-100}
+                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'projects' ? 'border-b-2 border-white' : ''}`}
+                            onClick={() => handleSetActiveSection('projects')}
+                        >
+                            mes projets
+                        </ScrollLink>
 
-                        <Link href="/#projects">
-                            <li className={`nav-link mx-4 cursor-crosshair text-transform: uppercase ${activeSection === 'projects' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('projects')}>
-                                Mes projets
-                            </li>
-                        </Link>
-
-                        <Link href="/#contact">
-                            <li className={`nav-link mx-4 cursor-crosshair ${activeSection === 'contact' ? 'border-b-2 border-white' : ''}`} onClick={() => handleSetActiveSection('contact')}>
-                                CONTACT
-                            </li>
-                        </Link>
-
+                        <ScrollLink
+                            to="contact"
+                            smooth={true}
+                            duration={200}
+                            offset={-100}
+                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'contact' ? 'border-b-2 border-white' : ''}`}
+                            onClick={() => handleSetActiveSection('contact')}
+                        >
+                            contact
+                        </ScrollLink>
                     </ul>
                     <div onClick={handleNav} className='md:hidden'>
                         <RiMenu3Line size={25} />
                     </div>
                 </div>
-
             </div>
+
             <div
                 className={
                     nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ' : ''
@@ -99,14 +107,6 @@ function Navbar() {
                 >
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Link href="/">
-                                <Image
-                                    src={NavLogo}
-                                    width='87'
-                                    height='35'
-                                    alt='/' />
-                            </Link>
-
                             <div
                                 onClick={handleNav}
                                 className='rounded-full shadow-lg bg-slate-gray-600 p-3 cursor-pointer'
@@ -122,35 +122,37 @@ function Navbar() {
                     </div>
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
-                            <Link href='/'>
-                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                    acceuil
-                                </li>
-                            </Link>
+                            <div>
+                                <Link href='/'>
+                                    <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                        acceuil
+                                    </li>
+                                </Link>
 
-                            <Link href='/#about'>
-                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                    a propos
-                                </li>
-                            </Link>
+                                <Link href='/#about'>
+                                    <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                        a propos
+                                    </li>
+                                </Link>
 
-                            <Link href='/#about'>
-                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                    skills
-                                </li>
-                            </Link>
+                                <Link href='/#skills'>
+                                    <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                        skills
+                                    </li>
+                                </Link>
 
-                            <Link href='/#projects'>
-                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                    mes projets
-                                </li>
-                            </Link>
+                                <Link href='/#projects'>
+                                    <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                        mes projets
+                                    </li>
+                                </Link>
 
-                            <Link href='/#contact'>
-                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                    contact
-                                </li>
-                            </Link>
+                                <Link href='/#contact'>
+                                    <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                        contact
+                                    </li>
+                                </Link>
+                            </div>
                         </ul>
 
                         <div className='pt-10'>
@@ -158,7 +160,7 @@ function Navbar() {
                                 Soyons connectés
                             </p>
                             <div className='flex space-x-4 my-4 w-full sm:w-[80%]'>
-                                <a
+                                <Link
                                     href="https://www.linkedin.com/in/sarah-berri"
                                     target='_blank'
                                     rel='noreferrer'
@@ -166,28 +168,34 @@ function Navbar() {
                                     <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                         <FaLinkedinIn />
                                     </div>
-                                </a>
+                                </Link>
 
-                                <a href="https://github.com/SarahBerri"
+                                <Link
+                                    href="https://github.com/SarahBerri"
                                     target='_blank'
                                     rel='noreferrer'
-
                                 >
                                     <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                         <FaGithub />
                                     </div>
-                                </a>
-                            </div>
+                                </Link>
 
+                                <Link
+                                    href="mailto:sarahberri.pro@gmail.com"
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
+                                        <IoMdMail />
+                                    </div>
+                                </Link>
+                            </div>
                         </div>
                     </div>
-                </div >
-            </div >
-
-        </div >
-    )
+                </div>
+            </div>
+        </div>
+    );
 }
 
-export default Navbar
-
-
+export default Navbar;

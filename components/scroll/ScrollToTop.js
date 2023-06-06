@@ -30,7 +30,7 @@ export const ScrollToTop = () => {
   }, [])
 
   return (
-    <div className="fixed bottom-2 right-2">
+    <div className="fixed bottom-2 right-2 z-50">
       <button
         type="button"
         onClick={scrollToTop}

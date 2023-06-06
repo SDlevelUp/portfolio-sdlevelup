@@ -10,10 +10,6 @@
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-html {
-  scroll-behavior: smooth;
-  font-family: 'Source Code Pro', sans-serif;
-}
 
 @layer base {
   body {
@@ -40,6 +36,13 @@ html {
 
 ::-webkit-scrollbar {
   width: 10px;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 112px;
+  scroll-behavior: smooth;
+  font-family: 'Source Code Pro', sans-serif;
 }
 
 /* Track */
