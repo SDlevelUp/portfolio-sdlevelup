@@ -23,12 +23,15 @@ function Astronaut() {
         </motion.div>
     );
 }
-function Main() {
 
-    return (
-        <div id="home" className='w-full lg:h-[120vh] md:h-screen text-center'>
+
+function Main() 
+
+ return (
+        <div id="home" className='w-full h-full text-center'>
             <div className='max-w-[1240px] h-full w-full mx-auto p-2 flex items-center justify-center'>
                 <div>
+<<<<<<< HEAD
                     <h1 className='pt-20 text-[33px]'>
                         Salut&#44; je suis <span className='text-[#000]'> Sarah&#44;</span>
                     </h1>
@@ -37,6 +40,13 @@ function Main() {
                         <h2>Développeuse web</h2>
                     </div>
 
+=======
+                    <h1 className='py-4 text-[33px] '>
+                        Salut&#44; je suis <span className='text-[#000]'> Sarah&#44;</span>
+                    </h1>
+                   <h2 className="py-2" >Développeuse web junior</h2>
+                    
+>>>>>>> 5885caf224b0b717ddfc781160dcc796c3412eff
                     <div className='w-full h-auto flex justify-center lg:justify-center lg:items-center '>
                         <div className="w-full h-auto flex items-center justify-center mt-[80px]">
                             <Astronaut />
