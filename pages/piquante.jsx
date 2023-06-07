@@ -7,7 +7,7 @@ import Link from 'next/link';
 const piquante = () => {
     return (
         <div className='w-full'>
-            <div className=' h-[117vh] w-full relative'>
+            <div className='h-[127vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
                         className=' h-[270px] w-[360px] absolute rounded-lg'
@@ -28,13 +28,13 @@ const piquante = () => {
                                 aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker
                                 ou disliker les sauces que d’autres partagent.
                             </p>
-                            <a
+                            <Link
                                 href='https://github.com/SarahBerri/Piquante'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-                            </a>
+                            </Link>
                         </div>
                         <div className='col-span-4 md:col-span-1 shadow-xl rounded-xl py-4'>
                             <div className='p-2'>
@@ -63,3 +63,7 @@ const piquante = () => {
 };
 
 export default piquante;
+
+
+
+

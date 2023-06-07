@@ -10,7 +10,7 @@ const lapanthere = () => {
             <div className=' h-[117vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
-                        className='h-[220px] w-[740px] absolute rounded-lg'
+                        className='h-[270px] w-[360px] absolute rounded-lg'
                         src={LapanthereImg}
                         alt='/'
                     />
@@ -24,20 +24,20 @@ const lapanthere = () => {
                                 assurer l’accessibilité du sie en optimisant sa taille, sa vitesse
                                 de chargement ainsi que le référencement.
                             </p>
-                            <a
+                            <Link
                                 href='https://github.com/SarahBerri/LaPanthere'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 href='https://sarahberri.github.io/LaPanthere/'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <button className='px-8 py-2 mt-4'>Demo</button>
-                            </a>
+                            </Link>
                         </div>
                         <div className='col-span-4 md:col-span-1 shadow-xl rounded-xl py-4'>
                             <div className='p-2'>

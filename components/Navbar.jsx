@@ -1,9 +1,6 @@
 import { Link as ScrollLink } from 'react-scroll';
 import Link from 'next/link';
 import { useState } from 'react';
-
-import Logo from "../public/assets/logo4.png";
-import Image from 'next/image';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { RiMenu3Line } from 'react-icons/ri';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
@@ -24,12 +21,7 @@ function Navbar() {
     return (
         <div className='fixed w-full h-20 shadow-xl z-[100] bg-black'>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <Image
-                    src={Logo}
-                    alt='Logo'
-                    width='170'
-                    className='cursor-crosshair'
-                />
+                <span className='text-xl font-bold text-white pl-4'>S'Dlevel'Up</span>
                 <div>
                     <ul className='hidden md:flex'>
                         <ScrollLink

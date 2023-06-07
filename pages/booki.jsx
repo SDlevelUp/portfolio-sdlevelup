@@ -22,20 +22,20 @@ const booki = () => {
                                 des hébergements et des activités dans la ville de leur choix.
                                 Les logements sont catégorisés en deux parties : les hégerbements et les plus populaires.
                             </p>
-                            <a
+                            <Link
                                 href='https://github.com/SarahBerri/Booki'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 href='https://sarahberri.github.io/Booki/'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <button className='px-8 py-2 mt-10'>Demo</button>
-                            </a>
+                            </Link>
                         </div>
                         <div className='col-span-4 md:col-span-1 shadow-xl rounded-xl py-4'>
                             <div className='p-2'>
