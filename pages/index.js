@@ -12,8 +12,7 @@ export default function Home() {
       <Head>
         <title>Sarah, développeuse web junior</title>
         <meta name="description" content="Développeuse web junior" />
-        <meta name="description"
-          content="S'Dlevel'Up: Développeuse web" />
+        <meta name="description" content="S'Dlevel'Up: Développeuse web" />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
         <title>Portfolio S'Dlevel'Up </title>
