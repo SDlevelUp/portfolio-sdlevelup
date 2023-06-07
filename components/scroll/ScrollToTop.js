@@ -38,6 +38,8 @@ export const ScrollToTop = () => {
           isVisible ? 'opacity-100' : 'opacity-0',
           'bg-[purple] inline-flex items-center rounded-full p-3 text-white cursor-crosshair',
         )}
+        aria-label="Scroll to Top"
+        title="Scroll to Top"
       >
         <BiArrowFromBottom className="h-6 w-6" aria-hidden="true" />
       </button>

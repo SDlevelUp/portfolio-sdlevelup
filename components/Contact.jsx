@@ -25,6 +25,7 @@ const Contact = () => {
                                 'https://www.linkedin.com/in/sarah-berri'
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label="Me suivre et/ou me contacter sur Lindedin"
                             >
                                 <div className='cursor-crosshair rounded-full shadow-lg hover:shadow-fuchsia-500/40 p-6 hover:scale-110 ease-in duration-300'>
                                     <FaLinkedinIn />
@@ -35,6 +36,7 @@ const Contact = () => {
                                 "https://github.com/SDlevelUp"
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label="Me suivre sur Github"
                             >
                                 <div className='cursor-crosshair rounded-full shadow-lg  hover:shadow-fuchsia-500/40 p-6 hover:scale-110 ease-in duration-300'>
                                     <FaGithub />
@@ -44,6 +46,7 @@ const Contact = () => {
                             <Link href="mailto:sarahberri.pro@gmail.com"
                                 target='_blank'
                                 rel='noreferrer'
+                                aria-label="M'envoyer un email"
                             >
                                 <div className='cursor-crosshair rounded-full shadow-lg  hover:shadow-fuchsia-500/40 p-6 hover:scale-110 ease-in duration-300'>
                                     <IoMdMail />
