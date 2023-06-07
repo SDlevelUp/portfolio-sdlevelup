@@ -19,6 +19,8 @@ function Astronaut() {
                 src="../assets/astronaut.svg"
                 alt="Astronaut"
                 className="w-full animate-spin-slow "
+                width={400}
+                height={400}
             />
         </motion.div>
     );
