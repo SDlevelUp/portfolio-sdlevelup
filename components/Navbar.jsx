@@ -156,6 +156,7 @@ function Navbar() {
                                     href="https://www.linkedin.com/in/sarah-berri"
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label="Me suivre et m'envoyer un message sur Linkedin"
                                 >
                                     <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                         <FaLinkedinIn />
@@ -166,6 +167,8 @@ function Navbar() {
                                     href="https://github.com/SDlevelUp"
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label="Me suivre sur Github"
+
                                 >
                                     <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                         <FaGithub />
@@ -176,6 +179,8 @@ function Navbar() {
                                     href="mailto:sarahberri.pro@gmail.com"
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label="M'envoyer un mail"
+
                                 >
                                     <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                         <IoMdMail />
