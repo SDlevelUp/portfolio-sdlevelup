@@ -21,7 +21,7 @@ function Navbar() {
     return (
         <div className='fixed w-full h-20 shadow-xl z-[100] bg-black'>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <span className='text-xl font-bold text-white pl-4'>S'Dlevel'Up</span>
+                <span className='text-xl font-bold text-white pl-4'>S’Dlevel’Up</span>
                 <div>
                     <ul className='hidden md:flex'>
                         <ScrollLink
