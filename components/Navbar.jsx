@@ -98,7 +98,7 @@ function Navbar() {
                     }
                 >
                     <div>
-                        <div className='flex w-full items-center justify-between'>
+                        <div className='flex w-full items-center justify-end'>
                             <div
                                 onClick={handleNav}
                                 className='rounded-full shadow-lg bg-slate-gray-600 p-3 cursor-pointer'
