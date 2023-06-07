@@ -25,13 +25,13 @@ function About() {
                         avec le développement web ^^) j’étais dans le doute quant à mon avenir dans le BTP.
                     </p>
                     <p className='py-2 indent-7'>
-                        Puis j’ai commencé à apprendre la programmation la mçeme année avec les cours gratuits
+                        Puis j’ai commencé à apprendre la programmation la même année avec les cours gratuits
                         de la <Link href='https://3wa.fr/' className='text-[#000] cursor-crosshair'>3WAcademy</Link>,
                         que je recommande d’ailleurs à tout débutant souhaitant s’initier à la programmation avant de se lancer
                         dans une formation plus ou moins longue.
                     </p>
                     <p className='py-2 italic text-gray-900 font-bold'>
-                        Le développement web est une course sans fin, mais chaque ligne de code est un pas de plus vers la ligne d’arrivée.
+                        &#8223;Le développement web est une course sans fin, mais chaque ligne de code est un pas de plus vers la ligne d’arrivée.&#8221;
                     </p>
                     <Link href='/#projects'>
                         <p className='py-2  underline cursor-crosshair'>

@@ -7,30 +7,29 @@ import Link from 'next/link';
 const booki = () => {
     return (
         <div className='w-full'>
-            <div className=' h-[117vh] w-full relative'>
+            <div className=' h-[128vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
+                        priority
                         className=' h-[270px] w-[360px] absolute rounded-lg'
                         src={BookiImg}
-                        alt='/'
+                        alt="Image du projet Booki"
                     />
                     <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[420px] relative'>
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
                                 Ce deuxième projet consister à développer un site internet qui permette aux usagers de trouver
-                                des hébergements et des activités dans la ville de leur choix.
-                                Les logements sont catégorisés en deux parties : les hégerbements et les plus populaires.
-                            </p>
+                                des hébergements et des activités dans la ville de leur choix.                            </p>
                             <Link
-                                href='https://github.com/SarahBerri/Booki'
+                                href='https://sdlevelup.github.io/Booki/'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                             </Link>
                             <Link
-                                href='https://sarahberri.github.io/Booki/'
+                                href='https://sdlevelup.github.io/Booki/'
                                 target='_blank'
                                 rel='noreferrer'
                             >

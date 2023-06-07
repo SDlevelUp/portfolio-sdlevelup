@@ -24,7 +24,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={HTML} width='64px' height='64px' alt='/' />
+                                <Image src={HTML} width='64px' height='64px' alt='HTML' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>HTML5</h3>
@@ -34,7 +34,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={CSS} width='64px' height='64px' alt='/' />
+                                <Image src={CSS} width='64px' height='64px' alt='CSS3' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>CSS3</h3>
@@ -44,7 +44,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={JAVASCRIPT} width='64px' height='64px' alt='/' />
+                                <Image src={JAVASCRIPT} width='64px' height='64px' alt='Javascript' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>JAVASCRIPT</h3>
@@ -54,7 +54,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={REACT} alt='/' width='64px' height='64px' />
+                                <Image src={REACT} alt='React' width='64px' height='64px' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>REACT</h3>
@@ -64,7 +64,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={TAILWIND} width='64px' height='64px' alt='/' />
+                                <Image src={TAILWIND} width='64px' height='64px' alt='Tailwind' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>TAILWIND</h3>
@@ -74,7 +74,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={MONGODB} width='64px' height='64px' alt='/' />
+                                <Image src={MONGODB} width='64px' height='64px' alt='MongoDB' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>MONGODB</h3>
@@ -84,7 +84,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={NODEJS} width='40px' height='40px' alt='/' />
+                                <Image src={NODEJS} width='40px' height='40px' alt='NodeJS' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>NODEJS</h3>
@@ -94,7 +94,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={GITHUB} width='64px' height='64px' alt='/' />
+                                <Image src={GITHUB} width='64px' height='64px' alt='Github' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>GITHUB</h3>
@@ -105,7 +105,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={GIT} width='64px' height='64px' alt='/' />
+                                <Image src={GIT} width='64px' height='64px' alt='Git' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>GIT</h3>
@@ -116,7 +116,7 @@ function Skills() {
                     <div className='p-6 shadow-xl hover:scale-105 ease-in duration-300 hover:shadow-fuchsia-500/40 cursor-crosshair'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={SASS} width='64px' height='64px' alt='/' />
+                                <Image src={SASS} width='64px' height='64px' alt='Sass' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3>SASS</h3>

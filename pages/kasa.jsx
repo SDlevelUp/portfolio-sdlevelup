@@ -9,12 +9,15 @@ const kasa = () => {
         <div className='w-full'>
             <div className=' h-[117vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0 object-cover fill-none'>
-                    <Image priority
-                        className=' h-[270px] w-[360px] absolute rounded-lg'
+                    <Image
+                        priority
                         src={KasaImg}
-                        alt='/'
+                        className="h-[270px] w-[360px] absolute rounded-lg"
+                        width={360}
+                        height={270}
+                        alt="Image du projet Kasa"
                     />
-                    <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[372px] relative'>
+                    <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[400px] relative'>
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
@@ -22,14 +25,14 @@ const kasa = () => {
                                 de location immobilière en suivant les maquettes Figma à disposition.
                             </p>
                             <Link
-                                href='https://github.com/Sarahberri/Kasa'
+                                href='https://github.com/SDlevelUp/Kasa/tree/main/kasa'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <button className='px-8 py-2 mt-6 mr-8'>Code</button>
                             </Link>
                             <Link
-                                href='https://kasa-murex.vercel.app/'
+                                href='https://kasa-czfeh6f6q-sarahberri.vercel.app/'
                                 target='_blank'
                                 rel='noreferrer'
                             >

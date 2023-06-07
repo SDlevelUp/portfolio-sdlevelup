@@ -10,29 +10,26 @@ const lapanthere = () => {
             <div className=' h-[117vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
+                        priority
                         className='h-[270px] w-[360px] absolute rounded-lg'
                         src={LapanthereImg}
-                        alt='/'
+                        alt='Image du projet La Panthère'
                     />
-                    <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[430px] relative'>
+                    <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[400px] relative'>
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
                                 Ce troisième projet consister en l’optimisation d’un site web existant.
-                                La Panthère est une agence de web design qui a bien démarrée mais qui
-                                est actuellement en perte de vitesse, pour pallier à celà, je devais
-                                assurer l’accessibilité du sie en optimisant sa taille, sa vitesse
-                                de chargement ainsi que le référencement.
                             </p>
                             <Link
-                                href='https://github.com/SarahBerri/LaPanthere'
+                                href='https://github.com/SDlevelUp/LaPanthere'
                                 target='_blank'
                                 rel='noreferrer'
                             >
                                 <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                             </Link>
                             <Link
-                                href='https://sarahberri.github.io/LaPanthere/'
+                                href='https://sdlevelup.github.io/LaPanthere//'
                                 target='_blank'
                                 rel='noreferrer'
                             >

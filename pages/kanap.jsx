@@ -10,23 +10,21 @@ const kanap = () => {
             <div className=' h-[117vh] w-full relative'>
                 <div className='top-[260px] justify-center left-0 flex items-center w-full absolute h-0'>
                     <Image
+                        priority
                         className=' h-[270px] w-[360px] absolute rounded-lg'
                         src={KanapImg}
-                        alt='/'
+                        alt='Image du projet Kanap'
                     />
-                    <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[440px] relative'>
+                    <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 top-[400px] relative'>
                         <div className='col-span-4'>
                             <h2 className='text-lg text-black'>Présentation du projet</h2>
                             <p className='pt-4'>
                                 Ce quatrième projet du parcours développement web consistait en l’intégration
                                 des éléments de l’API dans les différentes pages web avec JavaScript.
-                                Seule le coté back-end a été codé, le front-end avait déjà été fait.
-                                Au cours du projet, un plan de test d’acceptation a été planifié afin de
-                                répondre aux éxigences listées dans le pdf (voir repo).
                             </p>
 
                             <Link
-                                href='https://github.com/SarahBerri/Kanap'
+                                href='https://github.com/SDlevelUp/Kanap'
                                 target='_blank'
                                 rel='noreferrer'
                             >
