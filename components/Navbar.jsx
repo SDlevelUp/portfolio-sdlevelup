@@ -113,38 +113,36 @@ function Navbar() {
                         </div>
                     </div>
                     <div className='py-4 flex flex-col'>
-                        <ul className='uppercase'>
-                            <div>
-                                <Link href='/'>
-                                    <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                        acceuil
-                                    </li>
-                                </Link>
+                        <ul>
+                            <Link href='/'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    acceuil
+                                </li>
+                            </Link>
 
-                                <Link href='/#about'>
-                                    <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                        a propos
-                                    </li>
-                                </Link>
+                            <Link href='/#about'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    a propos
+                                </li>
+                            </Link>
 
-                                <Link href='/#skills'>
-                                    <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                        skills
-                                    </li>
-                                </Link>
+                            <Link href='/#skills'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    skills
+                                </li>
+                            </Link>
 
-                                <Link href='/#projects'>
-                                    <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                        mes projets
-                                    </li>
-                                </Link>
+                            <Link href='/#projects'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    mes projets
+                                </li>
+                            </Link>
 
-                                <Link href='/#contact'>
-                                    <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                        contact
-                                    </li>
-                                </Link>
-                            </div>
+                            <Link href='/#contact'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                                    contact
+                                </li>
+                            </Link>
                         </ul>
 
                         <div className='pt-10'>
@@ -190,8 +188,8 @@ function Navbar() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 }
 
