@@ -17,41 +17,35 @@ function Projects() {
                 <h1 className='py-4'>
                     Les projets que j&#39;ai réalisé au cours de ma formation
                 </h1>
-                <div className='grid md:grid-cols-2 gap-8'>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
                     <ProjectsItems
                         backgroundImg={BookiImg}
                         projectUrl="/booki"
-                        tech='HTML5, CSS3'
                     />
 
                     <ProjectsItems
                         backgroundImg={OhmyfoodImg}
                         projectUrl="/ohmyfood"
-                        tech='HTML5, CSS3, SASS'
                     />
 
                     <ProjectsItems
                         backgroundImg={LapanthereImg}
                         projectUrl="/lapanthere"
-                        tech='HTML5, CSS3'
                     />
 
                     <ProjectsItems
                         backgroundImg={KanapImg}
                         projectUrl="/kanap"
-                        tech='JAVASCRIPT'
                     />
 
                     <ProjectsItems
                         backgroundImg={PiquanteImg}
                         projectUrl="/piquante"
-                        tech='NODEJS, EXPRESSJS, MONGODB'
                     />
 
                     <ProjectsItems
                         backgroundImg={KasaImg}
                         projectUrl="/kasa"
-                        tech='REACT, HTML5, CSS3'
                     />
                 </div>
             </div>

@@ -31,12 +31,16 @@ function Main() {
         <div id="home" className='w-full h-full text-center'>
             <div className='max-w-[1240px] h-full w-full mx-auto p-2 flex items-center justify-center'>
                 <div>
-                    <h1 className='pt-[145px] text-[50px] '>
-                        Salut&#44; je suis <span className='text-[#000]'> Sarah&#44;</span>
+                    <h1 className='pt-[145px] text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase'>
+                        Salut&#44; je suis <span className='text-[#000]'> Sarah</span>
                     </h1>
-                    <h2 className="pt-[45px] text-[28px]">
-                        Développeuse web
-                    </h2>
+                    <div className="flex pt-10 justify-center">
+                        <div className="w-max">
+                            <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200">
+                                Développeuse Web
+                            </p>
+                        </div>
+                    </div>
                     <div className='w-full h-auto flex justify-center lg:justify-center lg:items-center'>
                         <div className="w-full h-auto flex items-center justify-center mt-[80px]">
                             <Astronaut />

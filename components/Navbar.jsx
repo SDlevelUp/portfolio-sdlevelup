@@ -23,7 +23,7 @@ function Navbar() {
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <span className='text-xl font-bold text-white pl-4'>S’Dlevel’Up</span>
                 <div>
-                    <ul className='hidden md:flex'>
+                    <ul className='hidden md:flex text-white'>
                         <ScrollLink
                             to="home"
                             smooth={true}
@@ -32,7 +32,7 @@ function Navbar() {
                             className={`nav-link mx-4 cursor-crosshair ${activeSection === 'home' ? 'border-b-2 border-white' : ''}`}
                             onClick={() => handleSetActiveSection('home')}
                         >
-                            acceuil
+                            1.acceuil
                         </ScrollLink>
 
                         <ScrollLink
@@ -40,21 +40,10 @@ function Navbar() {
                             smooth={true}
                             duration={200}
                             offset={-100}
-                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'about' ? 'border-b-2 border-white' : ''}`}
+                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'about' ? 'border-b-2 border-white ' : ''}`}
                             onClick={() => handleSetActiveSection('about')}
                         >
-                            à propos
-                        </ScrollLink>
-
-                        <ScrollLink
-                            to="skills"
-                            smooth={true}
-                            duration={200}
-                            offset={-100}
-                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'skills' ? 'border-b-2 border-white' : ''}`}
-                            onClick={() => handleSetActiveSection('skills')}
-                        >
-                            skills
+                            2.a propos
                         </ScrollLink>
 
                         <ScrollLink
@@ -65,8 +54,20 @@ function Navbar() {
                             className={`nav-link mx-4 cursor-crosshair ${activeSection === 'projects' ? 'border-b-2 border-white' : ''}`}
                             onClick={() => handleSetActiveSection('projects')}
                         >
-                            mes projets
+                            4.mes projets
                         </ScrollLink>
+                        <ScrollLink
+                            to="skills"
+                            smooth={true}
+                            duration={200}
+                            offset={-100}
+                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'skills' ? 'border-b-2 border-white' : ''}`}
+                            onClick={() => handleSetActiveSection('skills')}
+                        >
+                            3.skills
+                        </ScrollLink>
+
+
 
                         <ScrollLink
                             to="contact"
@@ -76,7 +77,7 @@ function Navbar() {
                             className={`nav-link mx-4 cursor-crosshair ${activeSection === 'contact' ? 'border-b-2 border-white' : ''}`}
                             onClick={() => handleSetActiveSection('contact')}
                         >
-                            contact
+                            5.contact
                         </ScrollLink>
                     </ul>
                     <div onClick={handleNav} className='md:hidden'>

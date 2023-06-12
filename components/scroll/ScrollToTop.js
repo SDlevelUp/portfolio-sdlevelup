@@ -42,7 +42,7 @@ export const ScrollToTop = () => {
           onClick={scrollToTop}
           className={classNames(
             'opacity-100',
-            'bg-purple-500 inline-flex items-center rounded-full p-3 text-white cursor-pointer',
+            'bg-black hover:bg-purple-800 inline-flex items-center rounded-full p-3 text-white cursor-pointer',
           )}
           aria-label="Scroll to Top"
           title="Scroll to Top"

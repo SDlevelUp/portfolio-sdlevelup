@@ -27,7 +27,7 @@ const ohmyfood = () => {
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+                                <button className='px-8 py-2 mt-4 mr-8'>Code du projet</button>
                             </Link>
                             <Link
                                 href='https://sdlevelup.github.io/OhMyFood/'

@@ -13,7 +13,7 @@
 
 @layer base {
   body {
-    @apply text-[#ffffff] tracking-wide bg-gradient-to-b from-purple-300 to-purple-700
+    @apply text-[#1a1919] tracking-wide bg-[#f2f2f2]
   }
 
   h1,
