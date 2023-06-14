@@ -27,9 +27,9 @@ const lapanthere = () => {
                             </p>
                             <h2 className='text-lg text-black mt-4'>Objectifs :</h2>
                             <p className='mt-4'>
-                                L’objectif principal est d'analyser l'état actuel du SEO du site fourni en l’état et
-                                améliorer les points les p lus importants, comme la vitesse de chargment et d’affichage,
-                                la qualité des images et l’accessibilité du site.
+                                L’objectif principal est d'analyser ’'état actuel du SEO du site fourni et
+                                d’améliorer les points les plus importants. Comme la vitesse de chargment
+                                et d’affichage, la qualité des images et l’accessibilité du site.
                             </p>
                             <div className='md:hidden text-center'>
                                 <Link
