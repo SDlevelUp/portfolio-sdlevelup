@@ -22,7 +22,7 @@ module.exports = {
             borderColor: "transparent"
           },
           "100%": {
-            borderColor: "white"
+            borderColor: "black"
           }
         }
       },

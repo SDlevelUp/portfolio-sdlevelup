@@ -36,7 +36,7 @@ function Main() {
                     </h1>
                     <div className="flex pt-10 justify-center">
                         <div className="w-max">
-                            <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-800">
+                            <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-black pr-5 mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-black">
                                 Développeuse Web
                             </p>
                         </div>
