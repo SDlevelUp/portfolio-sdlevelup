@@ -17,71 +17,75 @@ function Navbar() {
     const handleSetActiveSection = (section) => {
         setActiveSection(section);
     };
-
     return (
         <div className='fixed w-full h-20 shadow-xl z-[100] bg-black'>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <span className='text-xl font-bold text-white pl-4'>S’Dlevel’Up</span>
-                <div>
-                    <ul className='hidden md:flex text-white'>
-                        <ScrollLink
-                            to="home"
-                            smooth={true}
-                            duration={200}
-                            offset={-100}
-                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'home' ? 'border-b-2 border-white' : ''}`}
-                            onClick={() => handleSetActiveSection('home')}
-                        >
-                            1.acceuil
-                        </ScrollLink>
+                <span className='text-xl font-bold text-white pl-4'>
+                    S’Dlevel’Up
+                </span>
+                <ul className='hidden md:flex mx-2 mr-3 text-white'>
+                    <ScrollLink
+                        to="home"
+                        smooth={true}
+                        duration={200}
+                        offset={-100}
+                        className={`nav-link mx-2 cursor-crosshair ${activeSection === 'home' ? 'border-b-2 border-white' : ''}`}
+                        onClick={() => handleSetActiveSection('home')}
+                    >
+                        1.acceuil
+                    </ScrollLink>
 
-                        <ScrollLink
-                            to="about"
-                            smooth={true}
-                            duration={200}
-                            offset={-100}
-                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'about' ? 'border-b-2 border-white ' : ''}`}
-                            onClick={() => handleSetActiveSection('about')}
-                        >
-                            2.a propos
-                        </ScrollLink>
+                    <ScrollLink
+                        to="about"
+                        smooth={true}
+                        duration={200}
+                        offset={-100}
+                        className={`nav-link mx-2 cursor-crosshair ${activeSection === 'about' ? 'border-b-2 border-white ' : ''}`}
+                        onClick={() => handleSetActiveSection('about')}
+                    >
+                        2.a propos
+                    </ScrollLink>
 
-                        <ScrollLink
-                            to="projects"
-                            smooth={true}
-                            duration={200}
-                            offset={-100}
-                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'projects' ? 'border-b-2 border-white' : ''}`}
-                            onClick={() => handleSetActiveSection('projects')}
-                        >
-                            4.mes projets
-                        </ScrollLink>
-                        <ScrollLink
-                            to="skills"
-                            smooth={true}
-                            duration={200}
-                            offset={-100}
-                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'skills' ? 'border-b-2 border-white' : ''}`}
-                            onClick={() => handleSetActiveSection('skills')}
-                        >
-                            3.skills
-                        </ScrollLink>
+                    <ScrollLink
+                        to="projects"
+                        smooth={true}
+                        duration={200}
+                        offset={-100}
+                        className={`nav-link mx-2 cursor-crosshair ${activeSection === 'projects' ? 'border-b-2 border-white' : ''}`}
+                        onClick={() => handleSetActiveSection('projects')}
+                    >
+                        4.mes projets
+                    </ScrollLink>
 
-                        <ScrollLink
-                            to="contact"
-                            smooth={true}
-                            duration={200}
-                            offset={-100}
-                            className={`nav-link mx-4 cursor-crosshair ${activeSection === 'contact' ? 'border-b-2 border-white' : ''}`}
-                            onClick={() => handleSetActiveSection('contact')}
-                        >
-                            5.contact
-                        </ScrollLink>
-                    </ul>
-                    <div onClick={handleNav} className='md:hidden text-white'>
-                        <RiMenu3Line size={25} />
-                    </div>
-                </div>
+                    <ScrollLink
+                        to="skills"
+                        smooth={true}
+                        duration={200}
+                        offset={-100}
+                        className={`nav-link mx-2 cursor-crosshair ${activeSection === 'skills' ? 'border-b-2 border-white' : ''}`}
+                        onClick={() => handleSetActiveSection('skills')}
+                    >
+                        3.skills
+                    </ScrollLink>
+
+                    <ScrollLink
+                        to="contact"
+                        smooth={true}
+                        duration={200}
+                        offset={-100}
+                        className={`nav-link mx-2 cursor-crosshair ${activeSection === 'contact' ? 'border-b-2 border-white' : ''}`}
+                        onClick={() => handleSetActiveSection('contact')}
+                    >
+                        5.contact
+                    </ScrollLink>
+                </ul>
+                <button
+                    onClick={handleNav}
+                    className='md:hidden text-white p-2 rounded-m bg-transparent'
+                    aria-label="Menu"
+                >
+                    <RiMenu3Line size={25} />
+                </button>
             </div>
 
             <div
@@ -165,7 +169,6 @@ function Navbar() {
                                     target='_blank'
                                     rel='noreferrer'
                                     aria-label="Me suivre sur Github"
-
                                 >
                                     <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                         <FaGithub />
@@ -177,7 +180,6 @@ function Navbar() {
                                     target='_blank'
                                     rel='noreferrer'
                                     aria-label="M'envoyer un mail"
-
                                 >
                                     <div className='p-3 cursor-crosshair hover:scale-105 ease-in duration-300 rounded-full shadow-lg  hover:shadow-fuchsia-500/40'>
                                         <IoMdMail />
@@ -187,8 +189,9 @@ function Navbar() {
                         </div>
                     </div>
                 </div>
-            </div >
-        </div >
+            </div>
+        </div>
+
     );
 }
 
