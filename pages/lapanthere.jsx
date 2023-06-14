@@ -22,14 +22,14 @@ const lapanthere = () => {
                             <h2 className='text-lg text-black mt-10'>Présentation du projet :</h2>
                             <p className='mt-4'>
                                 La Panthère est une grande agence de web design basée à Lyon.
-                                L'activité de l'entreprise est en perte de vitesse et son site web
-                                n'apparaît pas en première page des moteurs de recherche.
+                                L’activité de l’entreprise est en perte de vitesse et son site web
+                                n’apparaît pas en première page des moteurs de recherche.
                             </p>
                             <h2 className='text-lg text-black mt-4'>Objectifs :</h2>
                             <p className='mt-4'>
-                                L'objectif principal est d'analyser l'état actuel du SEO du site fourni en l'atat et
-                                améliorer les points les plus importants, comme : la vitesse de chargment et d'affichage,
-                                la qualité des images, etc. et l'accessibilité du site.
+                                L’objectif principal est d'analyser l'état actuel du SEO du site fourni en l’état et
+                                améliorer les points les p lus importants, comme la vitesse de chargment et d’affichage,
+                                la qualité des images et l’accessibilité du site.
                             </p>
                             <div className='md:hidden text-center'>
                                 <Link

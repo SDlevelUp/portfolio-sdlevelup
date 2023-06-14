@@ -22,7 +22,7 @@ const ohmyfood = () => {
                             </div>
                             <h2 className='text-lg text-black mt-10'>Présentation du projet :</h2>
                             <p className='mt-4'>
-                                Ohmyfood! est une jeune startup voulant s'imposer sur le marché de la restauration.
+                                Ohmyfood! est une jeune startup voulant s’imposer sur le marché de la restauration.
                                 En plus des systèmes classiques de réservation, les clients pourront, à terme composer
                                 le menu de leur repas pour que les plats soient prêts à leur arrivée.
                             </p>
@@ -34,8 +34,8 @@ const ohmyfood = () => {
                             <h2 className='text-lg text-black mt-4'>Objectifs :</h2>
                             <p className='mt-4'>
                                 Pour ce projet il fallait intégrer la maquette créer par le designer UI en mobilefirst
-                                tout en respectant les contraintes graphiques et d'animations. Aucun framework ni langages n'est autorisé
-                                sauf SASS.
+                                tout en respectant les contraintes graphiques et d’animations. Aucun framework ni langages
+                                de programmation n’est autorisé sauf SASS.
                             </p>
                             <div className='md:hidden text-center'>
                                 <Link

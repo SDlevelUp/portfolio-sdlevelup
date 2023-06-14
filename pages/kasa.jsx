@@ -28,7 +28,7 @@ const kasa = () => {
 
                             <h2 className='text-lg text-black mt-4'>Objectifs :</h2>
                             <p className='mt-4'>
-                                L'objectif est de développer l'ensemble de l'application et ses composants avec React,
+                                L’objectif est de développer l’ensemble de l’application et ses composants avec React,
                                 en suivant les maquettes Figma fournies.
                             </p>
                             <div className='md:hidden text-center'>

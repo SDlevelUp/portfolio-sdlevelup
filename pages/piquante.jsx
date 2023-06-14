@@ -29,7 +29,7 @@ const piquante = () => {
                             <p className='mt-4'>
                                 Construire une API sécurisée avec ses models, controllers et routes.
 
-                                Les utilisateurs de l'application doivent pouvoir créer de nouvelles sauces, modifier
+                                Les utilisateurs de l’application doivent pouvoir créer de nouvelles sauces, modifier
                                 ou supprimer leur sauce, ainsi que liker ou disliker toutes les sauces créées.
                             </p>
                             <div className='md:hidden text-center'>

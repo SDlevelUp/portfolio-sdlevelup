@@ -30,7 +30,7 @@ const kanap = () => {
                             <p className='mt-4'>
                                 Unifier les travaux déjà réalisés par les développeurs front-end et back-end, en intégrant
                                 dynamiquement les éléments de l’API dans les différentes pages web avec JavaScript.
-                                L'utilisateur doit pouvoir visualiser l'ensemble des produits disponibles, ajouter un ou
+                                L’utilisateur doit pouvoir visualiser l’ensemble des produits disponibles, ajouter un ou
                                 plusieurs articles dans un panier, modifier ou supprimer son panier et enfin, passer commande.
                             </p>
                             <div className='md:hidden text-center'>
