@@ -14,7 +14,7 @@ function About() {
                     <h2 className='py-4'>Qui suis-je ?</h2>
                     <p className='py-2 indent-7'>
                         Développeuse web junior enthousiaste et motivée à apprendre de nouvelles compétences.
-                        Ayant récemment obtenu mon diplôme avec <Link href='https://openclassrooms.com/fr/' className='text-[#000] cursor-crosshair'>Openclassrooms</Link>,
+                        Ayant récemment obtenu mon diplôme avec <Link href='https://openclassrooms.com/fr/' className='text-[#bc4ed7] cursor-crosshair font-semibold'>Openclassrooms</Link>,
                         j’ai acquis des compétances en développement web, en langages de programmation tels que HTML,
                         CSS et JavaScript, ainsi qu’en conception de bases de données. Je suis prête à relever
                         de nouveaux défis et à travailler avec vous pour créer des projets web innovants et de qualité.
@@ -26,7 +26,7 @@ function About() {
                     </p>
                     <p className='py-2 indent-7'>
                         Puis j’ai commencé à apprendre la programmation la même année avec les cours gratuits
-                        de la <Link href='https://3wa.fr/' className='text-[#000] cursor-crosshair'>3WAcademy</Link>,
+                        de la <Link href='https://3wa.fr/' className='text-[#bc4ed7] font-semibold cursor-crosshair'>3WAcademy</Link>,
                         que je recommande d’ailleurs à tout débutant souhaitant s’initier à la programmation avant de se lancer
                         dans une formation plus ou moins longue.
                     </p>
