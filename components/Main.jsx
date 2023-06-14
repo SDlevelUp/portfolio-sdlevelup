@@ -31,7 +31,7 @@ function Main() {
         <div id="home" className='w-full h-full text-center'>
             <div className='max-w-[1240px] h-full w-full mx-auto p-2 flex items-center justify-center'>
                 <div>
-                    <h1 className='pt-[145px] text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase'>
+                    <h1 className='pt-[145px] text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left uppercase'>
                         Salut&#44; je suis <span className='text-[#000]'> Sarah</span>
                     </h1>
                     <div className="flex pt-10 justify-center">
