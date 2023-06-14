@@ -39,8 +39,8 @@ function About() {
                         </p>
                     </Link>
                 </div>
-                <div className='w-full h-auto m-auto bg-gradient-to-r from-purple-500 to-fuchsia-500 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 cursor-crosshair'  >
-                    <Image src={AboutImg} className='rounded-xl' alt='/' />
+                <div className='w-full h-auto m-auto bg-gradient-to-r from-purple-500 to-fuchsia-500 rounded-xl flex items-center justify-center p-4 cursor-crosshair'  >
+                    <Image src={AboutImg} className='rounded-xl ' alt='/' />
                 </div>
             </div>
         </div >

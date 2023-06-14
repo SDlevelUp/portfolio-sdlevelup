@@ -67,8 +67,6 @@ function Navbar() {
                             3.skills
                         </ScrollLink>
 
-
-
                         <ScrollLink
                             to="contact"
                             smooth={true}
@@ -80,7 +78,7 @@ function Navbar() {
                             5.contact
                         </ScrollLink>
                     </ul>
-                    <div onClick={handleNav} className='md:hidden'>
+                    <div onClick={handleNav} className='md:hidden text-white'>
                         <RiMenu3Line size={25} />
                     </div>
                 </div>
@@ -94,7 +92,7 @@ function Navbar() {
                 <div
                     className={
                         nav
-                            ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#dbe4f5] p-10 ease-in duration-500'
+                            ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#eaeff9] opacity-90 p-10 ease-in duration-500'
                             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500 inline-table'
                     }
                 >
@@ -147,7 +145,7 @@ function Navbar() {
                         </ul>
 
                         <div className='pt-10'>
-                            <p className='uppercase tracking-widest text-[#150b1d]'>
+                            <p className='uppercase tracking-widest text-[#150b1d] text-sm'>
                                 Soyons connectés
                             </p>
                             <div className='flex space-x-4 my-4 w-full sm:w-[80%]'>
