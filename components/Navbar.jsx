@@ -5,6 +5,9 @@ import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { RiMenu3Line } from 'react-icons/ri';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { IoMdMail } from 'react-icons/io';
+import Image from 'next/image';
+import NavLogo from '../public/assets/navLogo.png'
+
 
 function Navbar() {
     const [nav, setNav] = useState(false);
@@ -18,11 +21,18 @@ function Navbar() {
         setActiveSection(section);
     };
     return (
-        <div className='fixed w-full h-20 shadow-xl z-[100] bg-black'>
+        <div className='fixed w-full h-24 shadow-xl z-[100] bg-black'>
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <span className='text-xl font-bold text-white pl-4'>
-                    S’Dlevel’Up
-                </span>
+                <div className='text-xl font-bold text-white pl-4'>
+                    <Link href='/'>
+                        <Image
+                            src={NavLogo}
+                            width='87'
+                            height='50'
+                            alt='/'
+                        />
+                    </Link>
+                </div>
                 <ul className='hidden md:flex mx-2 mr-3 text-white'>
                     <ScrollLink
                         to="home"
@@ -84,7 +94,7 @@ function Navbar() {
                     className='md:hidden text-white p-2 rounded-m bg-transparent'
                     aria-label="Menu"
                 >
-                    <RiMenu3Line size={25} />
+                    <RiMenu3Line size={28} />
                 </button>
             </div>
 
@@ -96,7 +106,7 @@ function Navbar() {
                 <div
                     className={
                         nav
-                            ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#eaeff9] opacity-90 p-10 ease-in duration-500'
+                            ? ' fixed left-0 top-0 w-[80%] sm:w-[60%] md:w-[45%] h-screen bg-[#eaeff9] opacity-90 p-10 ease-in duration-500'
                             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500 inline-table'
                     }
                 >
