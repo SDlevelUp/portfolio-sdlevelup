@@ -53,7 +53,7 @@ function Navbar() {
                         className={`nav-link mx-2 cursor-crosshair ${activeSection === 'about' ? 'border-b-2 border-white ' : ''}`}
                         onClick={() => handleSetActiveSection('about')}
                     >
-                        2.a propos
+                        2.à propos
                     </ScrollLink>
 
                     <ScrollLink
