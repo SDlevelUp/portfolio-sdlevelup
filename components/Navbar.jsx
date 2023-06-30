@@ -6,7 +6,7 @@ import { RiMenu3Line } from 'react-icons/ri';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { IoMdMail } from 'react-icons/io';
 import Image from 'next/image';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/navLogo.png';
 
 
 function Navbar() {
@@ -42,7 +42,7 @@ function Navbar() {
                         className={`nav-link mx-2 cursor-crosshair ${activeSection === 'home' ? 'border-b-2 border-white' : ''}`}
                         onClick={() => handleSetActiveSection('home')}
                     >
-                        1.acceuil
+                        1.accueil
                     </ScrollLink>
 
                     <ScrollLink

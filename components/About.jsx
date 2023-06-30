@@ -15,7 +15,7 @@ function About() {
                     <p className='py-2 indent-7'>
                         Développeuse web junior enthousiaste et motivée à apprendre de nouvelles compétences.
                         Ayant récemment obtenu mon diplôme avec <Link href='https://openclassrooms.com/fr/' className='text-[#bc4ed7] cursor-crosshair font-semibold'>Openclassrooms</Link>,
-                        j’ai acquis des compétances en développement web, en langages de programmation tels que HTML,
+                        j’ai acquis des compétences en développement web, en langages de programmation tels que HTML,
                         CSS et JavaScript, ainsi qu’en conception de bases de données. Je suis prête à relever
                         de nouveaux défis et à travailler avec vous pour créer des projets web innovants et de qualité.
                     </p>
@@ -46,4 +46,4 @@ function About() {
         </div >
     );
 }
-export default About
+export default About;
