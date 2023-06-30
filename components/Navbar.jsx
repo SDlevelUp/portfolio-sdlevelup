@@ -129,13 +129,13 @@ function Navbar() {
                         <ul>
                             <Link href='/'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                    acceuil
+                                    accueil
                                 </li>
                             </Link>
 
                             <Link href='/#about'>
                                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                                    a propos
+                                    à propos
                                 </li>
                             </Link>
 
