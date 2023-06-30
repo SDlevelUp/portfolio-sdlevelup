@@ -21,7 +21,7 @@ function About() {
                     </p>
                     <p className='py-2 indent-7'>
                         Depuis ado je me suis toujours interessée au codage et la programmation mais sans jamais
-                        sauter le pas, puis après mon l’obtention de BTS Bâtiment en 2013 (qui n’a aucun rapport
+                        sauter le pas, puis après l’obtention de mon BTS Bâtiment en 2013 (qui n’a aucun rapport
                         avec le développement web ^^) j’étais dans le doute quant à mon avenir dans le BTP.
                     </p>
                     <p className='py-2 indent-7'>
